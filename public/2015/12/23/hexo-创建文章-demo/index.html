@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="hexo,node.js," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+
+
+
+
+  <meta property="fb:admins" content="timding412" />
+  <meta property="fb:app_id" content="481071602258089" />
+
+
+
+<meta name="description" content="千里之行,始于足下总有刁民想害朕  关于hexo 发布文章的一些标签的用法这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。">
+<meta name="keywords" content="hexo,node.js">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo 创建文章 demo">
+<meta property="og:url" content="http://timding.me/2015/12/23/hexo-创建文章-demo/index.html">
+<meta property="og:site_name" content="总有刁民想害朕~">
+<meta property="og:description" content="千里之行,始于足下总有刁民想害朕  关于hexo 发布文章的一些标签的用法这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://timding.me/images/blockquote.png">
+<meta property="og:image" content="http://timding.me/images/blockquote_demo.png">
+<meta property="og:image" content="http://timding.me/images/blockquote_demo1.png">
+<meta property="og:image" content="http://timding.me/images/codeblock.png">
+<meta property="og:image" content="http://timding.me/images/codeblockdemo.png">
+<meta property="og:image" content="http://timding.me/images/codeblockdemo1.png">
+<meta property="og:image" content="http://timding.me/images/pullquote.png">
+<meta property="og:image" content="http://timding.me/images/jsfiddle.png">
+<meta property="og:image" content="http://timding.me/images/gist.png">
+<meta property="og:image" content="http://timding.me/images/iframe.png">
+<meta property="og:image" content="http://timding.me/images/image.png">
+<meta property="og:image" content="http://timding.me/images/link.png">
+<meta property="og:image" content="http://timding.me/images/include.png">
+<meta property="og:image" content="http://timding.me/images/youtube.png">
+<meta property="og:image" content="http://timding.me/images/vimeo.png">
+<meta property="og:image" content="http://timding.me/images/include_post.png">
+<meta property="og:image" content="http://timding.me/images/include_assets.png">
+<meta property="og:image" content="http://timding.me/images/raw.png">
+<meta property="og:updated_time" content="2017-09-11T06:49:59.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hexo 创建文章 demo">
+<meta name="twitter:description" content="千里之行,始于足下总有刁民想害朕  关于hexo 发布文章的一些标签的用法这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。">
+<meta name="twitter:image" content="http://timding.me/images/blockquote.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.2',
+    sidebar: {"position":"right","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: 'A9YP4AYYAE',
+      apiKey: '8984b7a5cadb7b8c00bfdf1748e12bbc',
+      indexName: 'blog',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"搜索文章","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://timding.me/2015/12/23/hexo-创建文章-demo/"/>
+
+
+
+
+
+  <title>hexo 创建文章 demo | 总有刁民想害朕~</title>
+  
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '481071602258089',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/zh_Hans/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta custom-logo">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">总有刁民想害朕~</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">一个一知半解的程序猿</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://timding.me/2015/12/23/hexo-创建文章-demo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="总有刁民想害朕">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/default_avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="总有刁民想害朕~">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">hexo 创建文章 demo</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-12-23T09:31:52+08:00">
+                2015-12-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/日志/" itemprop="url" rel="index">
+                    <span itemprop="name">日志</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2015/12/23/hexo-创建文章-demo/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count fb-comments-count" data-href="http://timding.me/2015/12/23/hexo-创建文章-demo/" itemprop="commentCount">0</span> comments
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1,157
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  4
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote class="blockquote-center"><h2>千里之行,始于足下</h2><br>总有刁民想害朕</blockquote>
+
+<h1 id="关于hexo-发布文章的一些标签的用法"><a href="#关于hexo-发布文章的一些标签的用法" class="headerlink" title="关于hexo 发布文章的一些标签的用法"></a>关于hexo 发布文章的一些标签的用法</h1><h3 id="这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。"><a href="#这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。" class="headerlink" title="这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。"></a>这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。</h3><a id="more"></a>
+<h2 id="1-写作"><a href="#1-写作" class="headerlink" title="1. 写作"></a>1. 写作</h2><p>写作之前当然得先创建一个.md文件，使用命令<font color="#f00"><code>hexo new [layout] &lt;title&gt;</code></font>，其中layout默认为post，前面提过。</p>
+<p>（1）Layout布局</p>
+<p>Hexo提供了3种默认的布局，<font color="#f00"><code>post</code></font>、<font color="#f00"><code>page</code></font>和<font color="#f00"><code>draft</code></font>，路径分别为：<font color="#f00"><code>source/_posts</code></font>、<font color="#f00"><code>source</code></font>、<font color="#f00"><code>source/_draft</code></font>。如果你将在文章前置申明中，将layout设置为false，那么这篇文章将不会有任何的布局。</p>
+<p>（2）Filename文件名</p>
+<p>Hexo会默认将文章的标题当做文件名，但是你可以编辑<font color="#f00"><code>_config.yml</code></font>配置文件中的<font color="#f00"><code>new_post_name</code></font>来改变默认的文件名。</p>
+<p>例如：使用<font color="#f00"><code>hexo new hello</code></font>命令创建一篇为hello文章，Hexo会默认在_posts目录下给你创建一个名为hello.md的文件。假如你将<font color="#f00"><code>new_post_name</code></font>改为了:<font color="#f00"><code>year-:month-:day-:title.md</code></font>，那么hexo就自动帮你创建名为2015-12-23-hello.md（当前日期为2015年12月23）</p>
+<ul>
+<li><font color="#f00"><code>:title</code></font> 文章标题</li>
+<li><font color="#f00"><code>:year</code></font> 创建年份</li>
+<li><font color="#f00"><code>:month</code></font> 月份，如4月为04</li>
+<li><font color="#f00"><code>:day</code></font> 日期</li>
+<li><font color="#f00"><code>i_month</code></font> 月份，单数字，比如4月就是4</li>
+<li><font color="#f00"><code>i_day</code></font> 同上</li>
+</ul>
+<p>（3）Drafts草稿</p>
+<p>Hexo提供草稿功能，在<font color="#f00"><code>_drafts</code></font>目录下的文章不会发表到网站上，你可以通过命令<font color="#f00"><code>hexo publish [layout] &lt;title&gt;</code></font>发布你的草稿，改命令会将文章移到<font color="#f00"><code>_posts</code></font>目录下。但是也可以设置<font color="#f00"><code>_config.yml</code></font>配置文件的<font color="#f00"><code>render_drafts</code></font>字段，使草稿默认发布到站点中。</p>
+<p>（4）Scaffolds模版</p>
+<p>当你使用<font color="#f00"><code>new</code></font>命令创建一篇文章的时候，Hexo会根据scaffolds目录中的模版帮你生成文章。假如执行<font color="#f00"><code>hexo new photo &quot;My Gallery&quot;</code></font>，Hexo会尝试在scaffolds目录中去寻找photo.md的模版文件，然后基于它创建标题为My Gallery的文章。</p>
+<p>它的用处就是能够在模版中写入你某一类文章都要添加的共同内容，这样你基于模版创建文章的时候，就不用再重复写入那部分内容。</p>
+<h2 id="2-前置声明"><a href="#2-前置声明" class="headerlink" title="2. 前置声明"></a>2. 前置声明</h2><p>顾名思义，就是写在文章前面的一块内容，为了对文章进行某些设置。它有两种书写方式：</p>
+<ol>
+<li>YAML方式，以三短线结束<figure class="highlight yaml"><figcaption><span>YAML</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">title:</span> <span class="string">Hello</span> <span class="string">World</span></div><div class="line"><span class="attr">date:</span> <span class="number">2015</span><span class="string">/12/23</span> <span class="number">20</span><span class="string">:46:25</span></div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure></li>
+<li>JSON方式，以三分号结束<figure class="highlight"><figcaption><span>JSON</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">"title": "Hello World",</div><div class="line">"date": "2013/7/13 20:46:25"</div><div class="line">;;;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>下面看看有哪些参数可以设定：</p>
+<ul>
+<li><font color="#f00"><code>layout</code></font> 布局，一般不用写，默认就行</li>
+<li><font color="#f00"><code>title</code></font> 标题，这个必须要有</li>
+<li><font color="#f00"><code>date</code></font> 时间</li>
+<li><font color="#f00"><code>updated</code></font> 修改时间</li>
+<li><font color="#f00"><code>comments</code></font> 是否开启评论，默认为true</li>
+<li><font color="#f00"><code>tags</code></font> 文章标签</li>
+<li><font color="#f00"><code>categories</code></font> 文章分类</li>
+<li><font color="#f00"><code>permalink</code></font> 文章永久链接，一般不用写，默认就行<br>在写标签和分类的时候，可能会有多个的情况，多个标签可以无序排列的方式书写，而分类可能会有多级分类的情况。如何书写举例如下：</li>
+</ul>
+<figure class="highlight yaml"><figcaption><span>YAML</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="attr">categories:</span> </div><div class="line"><span class="bullet">-</span> <span class="string">Sports</span></div><div class="line"><span class="bullet">-</span> <span class="string">Baseball</span></div><div class="line"><span class="attr">tags:</span></div><div class="line"><span class="bullet">-</span> <span class="string">Injury</span></div><div class="line"><span class="bullet">-</span> <span class="string">Fight</span></div><div class="line"><span class="bullet">-</span> <span class="string">Shocking</span></div></pre></td></tr></table></figure>
+<h2 id="3-标签插件"><a href="#3-标签插件" class="headerlink" title="3. 标签插件"></a>3. 标签插件</h2><p>这里说的标签插件不同于文章中的标签，它可以帮助你在文章中快速嵌入一些特殊的内容。</p>
+<p>（1）Block Quote-块引用</p>
+<p>插入带有作者信息的应用，体现在Html上就是在<font color="#f00"><code>blockquote</code></font>标签下加入了<font color="#f00"><code>footer</code></font>标签。但是会给文章带来不一样的显示效果，书写格式非常简单。</p>
+<img src="/images/blockquote.png">
+<p>看下面的例子就大概知道怎么书写了，第一种最简单的方式就等于markdown里的<font color="#f00"><code>&gt;</code></font>语句。<br><img src="/images/blockquote_demo.png"><br>显示效果为（主题为light-ch）：<br><img src="/images/blockquote_demo1.png"><br>（2）Code Block代码块</p>
+<p>在文章中插入代码块可以使用下面方式书写<br><img src="/images/codeblock.png"><br>同样举个例子，用法一目了然。<br><img src="/images/codeblockdemo.png"><br>显示效果如下：<br><img src="/images/codeblockdemo1.png"><br>（3）Pull Quote</p>
+<p>这个插件可以帮助您在文章中插入重要引述。<br><img src="/images/pullquote.png"><br>（4）jsFiddle</p>
+<p>在文章中嵌入jsFiddle片段。<br><img src="/images/jsfiddle.png"></p>
+<p>（5）Gist</p>
+<p>嵌入Gist片段<br><img src="/images/gist.png"><br>（6）iFrame</p>
+<p>插入网页框架<br><img src="/images/iframe.png"><br>（7）Image</p>
+<p>插入图片，可以自定义大小<br><img src="/images/image.png"><br>（8）Link</p>
+<p>插入带有target=”_blank”属性值的链接。<br><img src="/images/link.png"><br>（9）Include Code</p>
+<p>从资源目录中插入代码片段。<br><img src="/images/include.png"><br>（10）Youtube</p>
+<p>在文章中插入Youtube视频。天朝的孩子就不用试了<br><img src="/images/youtube.png"><br>（11）Vimeo</p>
+<p>在文章中插入Vimeo视频。<br><img src="/images/vimeo.png"><br>（12）Include Posts</p>
+<p>包含其他文章的链接。<br><img src="/images/include_post.png"><br>（13）Include Assets</p>
+<p>包含文章资源。(具体怎么使用，还不太明白，后续再补充)<br><img src="/images/include_assets.png"><br>（14）Raw</p>
+<p>一些内容不想被主题渲染，可以使用该插件呈现原始状态。<br><img src="/images/raw.png"></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/weixinpay.jpeg" alt="总有刁民想害朕 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpeg" alt="总有刁民想害朕 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/node-js/" rel="tag"># node.js</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+          <div class="social-like">
+            
+
+            
+              <div class="fb_like">
+                <div class="fb-like" data-layout="button_count" data-share="true"></div>
+              </div>
+            
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/12/25/关于用-hexo-d-失败的解决方法/" rel="prev" title="关于用 hexo d 失败的解决方法">
+                关于用 hexo d 失败的解决方法 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="fb-comments"
+           data-href="http://timding.me/2015/12/23/hexo-创建文章-demo/"
+           data-numposts="10"
+           data-width="100%"
+           data-colorscheme="light">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          
+            <img class="site-author-image" itemprop="image"
+              src="/images/default_avatar.jpg"
+              alt="总有刁民想害朕" />
+          
+            <p class="site-author-name" itemprop="name">总有刁民想害朕</p>
+            <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+            
+              <a href="/archives/">
+            
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/lovexinforever" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>GitHub</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:a514387454@gmail.com" target="_blank" title="E-Mail">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/5493554807" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>微博</a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">千里之行,始于足下</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#关于hexo-发布文章的一些标签的用法"><span class="nav-number"></span> <span class="nav-text">关于hexo 发布文章的一些标签的用法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。"><span class="nav-number">0.1.</span> <span class="nav-text">这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-写作"><span class="nav-number">1.</span> <span class="nav-text">1. 写作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-前置声明"><span class="nav-number">2.</span> <span class="nav-text">2. 前置声明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-标签插件"><span class="nav-number">3.</span> <span class="nav-text">3. 标签插件</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 &mdash; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">总有刁民想害朕</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">
+      2.4k
+    </span>
+  
+</div>
+
+        
+
+
+
+
+
+
+
+  <div style="display: none;">
+    <script src="//s95.cnzz.com/z_stat.php?id=1260290984&web_id=1260290984" language="JavaScript"></script>
+  </div>
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.2"></script>
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
