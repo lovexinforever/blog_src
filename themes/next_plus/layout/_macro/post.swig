@@ -235,6 +235,18 @@
             </div>
           {% endif %}
 
+        {% if post.top %}
+            <span class="post-category" >
+            <span class="post-meta-item-icon">
+                  <i class="fa fa-star-half zhidingtop">置顶</i>
+                </span>
+            
+            
+            </span>
+          {% endif %}
+
+
+
           {% if post.description and (not theme.excerpt_description or not is_index) %}
               <div class="post-description">
                   {{ post.description }}
