@@ -92,6 +92,12 @@ algolia:
     - path
     - content:strip
 
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
 deploy:  
    type: git  
    repo: git@github.com:lovexinforever/lovexinforever.github.io.git  
