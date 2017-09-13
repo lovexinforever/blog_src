@@ -19,7 +19,7 @@
 
 
 {% if theme.han %}
-  {% set Han_uri = url_for(theme.vendors._internal + '/Han/dist/han.min.css?v=3.3') %}
+  {% set Han_uri = url_for(theme.vendors._internal + '/Han/dist/han.min.css?v=3.4') %}
   {% if theme.vendors.Han %}
     {% set Han_uri = theme.vendors.Han %}
   {% endif %}
