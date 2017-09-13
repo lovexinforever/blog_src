@@ -298,7 +298,7 @@ ffont:
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -369,14 +369,14 @@ valine:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: WBZD2d44oKZRczV8wuF3x-tbv0joHqcvtdwNeDWAgFY
 
 # Google Analytics
 #google_analytics:
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
-#bing_site_verification:
+bing_site_verification: 8E16E2D0325597241F1AED44F25B6F90
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -616,61 +616,49 @@ vendors:
   # Internal path prefix. Please do not edit it.
   _internal: lib
 
-  # Internal version: 2.1.3
-  jquery:
+   # Internal version: 2.1.3
+  jquery: //cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js
 
   # Internal version: 2.1.5
-  # See: http://fancyapps.com/fancybox/
-  fancybox:
-  fancybox_css:
+  # Fancybox: http://fancyapps.com/fancybox/
+  fancybox: //cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.pack.js
+  fancybox_css: //cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.min.css
 
   # Internal version: 1.0.6
-  # See: https://github.com/ftlabs/fastclick
-  fastclick:
+  fastclick: //cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js
 
   # Internal version: 1.9.7
-  # See: https://github.com/tuupola/jquery_lazyload
-  lazyload:
+  lazyload: //cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js
 
   # Internal version: 1.2.1
-  # See: http://VelocityJS.org
-  velocity:
+  velocity: //cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js
 
   # Internal version: 1.2.1
-  # See: http://VelocityJS.org
-  velocity_ui:
+  velocity_ui: //cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js
 
   # Internal version: 0.7.9
-  # See: https://faisalman.github.io/ua-parser-js/
-  ua_parser:
+  ua_parser: //cdn.jsdelivr.net/ua-parser.js/0.7.10/ua-parser.min.js
 
-  # Internal version: 4.6.2
-  # See: http://fontawesome.io/
-  fontawesome:
+  # Internal version: 4.4.0
+  # http://fontawesome.io/
+  fontawesome: //maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css
 
   # Internal version: 1
   # https://www.algolia.com
   algolia_instant_js:
   algolia_instant_css:
 
-  # Internal version: 1.0.2
-  # See: https://github.com/HubSpot/pace
-  # Or use direct links below:
-  # pace: //cdn.bootcss.com/pace/1.0.2/pace.min.js
-  # pace_css: //cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flash.min.css
-  pace:
-  pace_css:
-
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
 
-  # three
-  three:
+  # Internal version: r84
+  # https://github.com/mrdoob/three.js/releases
+  three: 
 
-  # three_waves
+  # Internal version: 1.0.0
   # https://github.com/jjandxa/three_waves
-  three_waves:
+  three_waves: 
 
   # three_waves
   # https://github.com/jjandxa/canvas_lines
