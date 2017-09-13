@@ -1,7 +1,7 @@
 one_depth: 5
 environment:
 access_token:
-    secure: [Your GitHub Access Token]
+    secure: b482d795e658eae676602a63726261f9f1ce5694
     install:
     - node --version
     - npm --version
