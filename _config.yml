@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: next
+theme: next_plus
 exclude_generator:
 plugins:
 # - hexo-generator-feed
