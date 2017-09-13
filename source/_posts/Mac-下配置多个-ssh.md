@@ -15,7 +15,7 @@ categories:
 <!--more -->
 ### 我们每个人都有多个仓库来提交代码,工作中的和个人的.本篇文章就教你怎样管理多个 ssh 来提交代码.
 
-1. 查看 **.ssh** 文件夹下面的文件
+查看 **.ssh** 文件夹下面的文件
 -----------
 一种是直接进入 .ssh 文件目录
 > cd ~/.ssh
@@ -24,7 +24,7 @@ categories:
 > ls ~/.ssh
 
 <img src="http://obqo5zeui.bkt.clouddn.com/QQ20170912-170511@2x.png" />
-2. 生成一个SSH-Key
+生成一个SSH-Key
 -----------
 > ssh-keygen -t rsa -C "tim_ding@qq.com"
 
@@ -32,11 +32,11 @@ categories:
 如果 .ssh 文件下已经有文件了 ,最好重新命名
 密码建议填空
 
-3. 成功生成 SSH-KEY
+成功生成 SSH-KEY
 -----------
 <img src="http://obqo5zeui.bkt.clouddn.com/QQ20170912-175312@2x.png" />
 
-4. 配置 SSH-KEY
+配置 SSH-KEY
 -----------
 在~/.ssh/目录下会生成id-rsa_hostname和id-rsa_hostname.pub私钥和公钥。 我们将id-rsa_hostname.pub中的内容粘帖到服务器的SSH-key的配置中。
 > cat ~/.ssh/github_blog_rsa.pub
@@ -46,7 +46,7 @@ categories:
 <img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-090143@2x.png" />
 
 至此, ssh 就配置完成了.
-5. 验证配置是否成功
+验证配置是否成功
 -----------
 > ssh -T git@github.com
 
@@ -54,7 +54,7 @@ categories:
 <img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-090537@2x.png" />
 那是因为目录下有多个 ssh, 需要配置 config
 
-6. 打开 config 文件
+打开 config 文件
 -----------
 > vim ~/.ssh/config
 

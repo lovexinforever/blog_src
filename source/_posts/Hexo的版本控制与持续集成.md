@@ -24,24 +24,24 @@ categories:
 答案是肯定的。这里用到了<a href="https://en.wikipedia.org/wiki/Continuous_integration" >持续集成</a>也就是我们一直所说的CI来完成一键发布：当有新的change push到Source Repo时，自动执行CI脚本，生成最新的静态网站发布到Content Repo，一气呵成。那么我使用什么CI工具来做呢？我们可以使用像Travis CI这样的Hosted CI Service，也可以使用Jenkins或者TeamCity来搭建CI server。如果自己来搭建CI Server，费时费力，又要花钱来买Server来host CI service，肯定不是一个很好的选择。那么我们选哪个Hosted CI Service呢？其实今年在公司的一个项目中我们就选择了`AppVeyor`。当初在做investigation的时候，第一个想到的就是用Travis CI，访问<a href="https://www.appveyor.com/">AppVeyor官网</a>，映入眼帘的大标题就是#1 Continuous Delivery service for Windows。刚开始的时候内心一阵嘲笑，Top 10的CI Service就你支持Windows，你不是第一那谁是第一？结果在之后的项目使用中，发现AppVeyor比Travis CI好用太多。这里就不具体展开了，继续进入正题。
 使用AppVeyor来建立CI非常方便，主要是以下步骤：
 
-1. 注册并登陆 AppVeyor
+注册并登陆 AppVeyor
 -----------
 访问<a href="https://ci.appveyor.com/login" >AppVeyor登陆页面</a>，使用你的GitHub账号登陆即可。
 <img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-152205@2x.png" />
 
-2. 添加 Project
+添加 Project
 ----------
 在AppVeyor Projects页面，添加相应的GitHub Source Repo。
 <img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-152503@2x.png" />
 
-3. 添加appveyor.yml到Source Repo
+添加appveyor.yml到Source Repo
 ----------
 接下来，你需要把appveyor.yml添加到Source Repo的根目录下。具体的appveyor.yml如下.也可以参考我的博客
 <a href = "https://github.com/lovexinforever/blog_src/blob/master/appveyor.yml">AppVeyor.yml</a>
 
 你唯一需要做的就是替换[Your GitHub Access Token]，关于生成Access Token，可以参考这篇<a href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/">文章</a>。在GitHub生成好Access Token之后，你需要到AppVeyor加密页面把<a href="https://ci.appveyor.com/tools/encrypt">Access Token加密</a>之后再替换[Your GitHub Access Token]
 
-4. 设置Appveyor
+设置Appveyor
 ----------
 添加好appveyor.yml之后，再到Appveyor portal设置以下四个变量。STATIC_SITE_REPO就是Content Repo的地址，TARGET_BRANCH就是你Content Repo的branch，一般默认就是master，GIT_USER_EMAIL和GIT_USER_NAME就是你GitHub账号的信息。
 

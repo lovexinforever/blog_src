@@ -83,7 +83,7 @@
 <meta property="og:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505296567323&di=32e77172fa0656b500322d1f88a02925&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D4c3b2306ba51f819e5280b09b2dd2098%2F8718367adab44aed5b5a1bc9b91c8701a18bfb83.jpg">
 <meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170913-152205@2x.png">
 <meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170913-152503@2x.png">
-<meta property="og:updated_time" content="2017-09-13T07:33:29.000Z">
+<meta property="og:updated_time" content="2017-09-13T08:48:29.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo的版本控制与持续集成">
 <meta name="twitter:description" content="人生并不像火车要通过每个站似的经过每一个生活阶段。人生总是直向前行走，从不留下什么。—— 刘易斯">
@@ -409,7 +409,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,002
+                  998
                 </span>
               
 
@@ -453,11 +453,11 @@
 <li>执行<code>hexo deploy</code>来更新托管静态网站的GitHub Pages (我们称之为Content Repo)</li>
 </ul>
 <p>这样看来，每次更新博客要经历两个步骤，并不是那么straightforward。那么有没有办法做到既能使用GitHub进行版本控制，又能做到一键发布呢？<br>答案是肯定的。这里用到了<a href="https://en.wikipedia.org/wiki/Continuous_integration" target="_blank" rel="external">持续集成</a>也就是我们一直所说的CI来完成一键发布：当有新的change push到Source Repo时，自动执行CI脚本，生成最新的静态网站发布到Content Repo，一气呵成。那么我使用什么CI工具来做呢？我们可以使用像Travis CI这样的Hosted CI Service，也可以使用Jenkins或者TeamCity来搭建CI server。如果自己来搭建CI Server，费时费力，又要花钱来买Server来host CI service，肯定不是一个很好的选择。那么我们选哪个Hosted CI Service呢？其实今年在公司的一个项目中我们就选择了<code>AppVeyor</code>。当初在做investigation的时候，第一个想到的就是用Travis CI，访问<a href="https://www.appveyor.com/" target="_blank" rel="external">AppVeyor官网</a>，映入眼帘的大标题就是#1 Continuous Delivery service for Windows。刚开始的时候内心一阵嘲笑，Top 10的CI Service就你支持Windows，你不是第一那谁是第一？结果在之后的项目使用中，发现AppVeyor比Travis CI好用太多。这里就不具体展开了，继续进入正题。<br>使用AppVeyor来建立CI非常方便，主要是以下步骤：</p>
-<h2 id="1-注册并登陆-AppVeyor"><a href="#1-注册并登陆-AppVeyor" class="headerlink" title="1. 注册并登陆 AppVeyor"></a>1. 注册并登陆 AppVeyor</h2><p>访问<a href="https://ci.appveyor.com/login" target="_blank" rel="external">AppVeyor登陆页面</a>，使用你的GitHub账号登陆即可。<br><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-152205@2x.png"></p>
-<h2 id="2-添加-Project"><a href="#2-添加-Project" class="headerlink" title="2. 添加 Project"></a>2. 添加 Project</h2><p>在AppVeyor Projects页面，添加相应的GitHub Source Repo。<br><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-152503@2x.png"></p>
-<h2 id="3-添加appveyor-yml到Source-Repo"><a href="#3-添加appveyor-yml到Source-Repo" class="headerlink" title="3. 添加appveyor.yml到Source Repo"></a>3. 添加appveyor.yml到Source Repo</h2><p>接下来，你需要把appveyor.yml添加到Source Repo的根目录下。具体的appveyor.yml如下.也可以参考我的博客<br><a href="https://github.com/lovexinforever/blog_src/blob/master/appveyor.yml" target="_blank" rel="external">AppVeyor.yml</a></p>
+<h2 id="注册并登陆-AppVeyor"><a href="#注册并登陆-AppVeyor" class="headerlink" title="注册并登陆 AppVeyor"></a>注册并登陆 AppVeyor</h2><p>访问<a href="https://ci.appveyor.com/login" target="_blank" rel="external">AppVeyor登陆页面</a>，使用你的GitHub账号登陆即可。<br><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-152205@2x.png"></p>
+<h2 id="添加-Project"><a href="#添加-Project" class="headerlink" title="添加 Project"></a>添加 Project</h2><p>在AppVeyor Projects页面，添加相应的GitHub Source Repo。<br><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-152503@2x.png"></p>
+<h2 id="添加appveyor-yml到Source-Repo"><a href="#添加appveyor-yml到Source-Repo" class="headerlink" title="添加appveyor.yml到Source Repo"></a>添加appveyor.yml到Source Repo</h2><p>接下来，你需要把appveyor.yml添加到Source Repo的根目录下。具体的appveyor.yml如下.也可以参考我的博客<br><a href="https://github.com/lovexinforever/blog_src/blob/master/appveyor.yml" target="_blank" rel="external">AppVeyor.yml</a></p>
 <p>你唯一需要做的就是替换[Your GitHub Access Token]，关于生成Access Token，可以参考这篇<a href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/" target="_blank" rel="external">文章</a>。在GitHub生成好Access Token之后，你需要到AppVeyor加密页面把<a href="https://ci.appveyor.com/tools/encrypt" target="_blank" rel="external">Access Token加密</a>之后再替换[Your GitHub Access Token]</p>
-<h2 id="4-设置Appveyor"><a href="#4-设置Appveyor" class="headerlink" title="4. 设置Appveyor"></a>4. 设置Appveyor</h2><p>添加好appveyor.yml之后，再到Appveyor portal设置以下四个变量。STATIC_SITE_REPO就是Content Repo的地址，TARGET_BRANCH就是你Content Repo的branch，一般默认就是master，GIT_USER_EMAIL和GIT_USER_NAME就是你GitHub账号的信息。</p>
+<h2 id="设置Appveyor"><a href="#设置Appveyor" class="headerlink" title="设置Appveyor"></a>设置Appveyor</h2><p>添加好appveyor.yml之后，再到Appveyor portal设置以下四个变量。STATIC_SITE_REPO就是Content Repo的地址，TARGET_BRANCH就是你Content Repo的branch，一般默认就是master，GIT_USER_EMAIL和GIT_USER_NAME就是你GitHub账号的信息。</p>
 <h3 id="好了，一切大功告成！试一下git-push你的change到Source-Repo，几分钟内，你的博客就自动更新了！"><a href="#好了，一切大功告成！试一下git-push你的change到Source-Repo，几分钟内，你的博客就自动更新了！" class="headerlink" title="好了，一切大功告成！试一下git push你的change到Source Repo，几分钟内，你的博客就自动更新了！"></a>好了，一切大功告成！试一下git push你的change到Source Repo，几分钟内，你的博客就自动更新了！</h3><p>背后的过程如下:</p>
 <ul>
 <li>Git push to Source Repo</li>
@@ -721,7 +721,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">人生并不像火车要通过每个站似的经过每一个生活阶段。人生总是直向前行走，从不留下什么。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-注册并登陆-AppVeyor"><span class="nav-number">2.</span> <span class="nav-text">1. 注册并登陆 AppVeyor</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-添加-Project"><span class="nav-number">3.</span> <span class="nav-text">2. 添加 Project</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-添加appveyor-yml到Source-Repo"><span class="nav-number">4.</span> <span class="nav-text">3. 添加appveyor.yml到Source Repo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-设置Appveyor"><span class="nav-number">5.</span> <span class="nav-text">4. 设置Appveyor</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#好了，一切大功告成！试一下git-push你的change到Source-Repo，几分钟内，你的博客就自动更新了！"><span class="nav-number">5.1.</span> <span class="nav-text">好了，一切大功告成！试一下git push你的change到Source Repo，几分钟内，你的博客就自动更新了！</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">人生并不像火车要通过每个站似的经过每一个生活阶段。人生总是直向前行走，从不留下什么。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注册并登陆-AppVeyor"><span class="nav-number">2.</span> <span class="nav-text">注册并登陆 AppVeyor</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加-Project"><span class="nav-number">3.</span> <span class="nav-text">添加 Project</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加appveyor-yml到Source-Repo"><span class="nav-number">4.</span> <span class="nav-text">添加appveyor.yml到Source Repo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置Appveyor"><span class="nav-number">5.</span> <span class="nav-text">设置Appveyor</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#好了，一切大功告成！试一下git-push你的change到Source-Repo，几分钟内，你的博客就自动更新了！"><span class="nav-number">5.1.</span> <span class="nav-text">好了，一切大功告成！试一下git push你的change到Source Repo，几分钟内，你的博客就自动更新了！</span></a></li></ol></li></ol></div>
             
 
           </div>
