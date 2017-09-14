@@ -81,13 +81,13 @@
 <meta name="keywords" content="CSS3,CSS,HTML5,单行显示">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CSS实现单行、多行文本溢出显示省略号（…）">
-<meta property="og:url" content="https://lovexinforever.github.io/2017/09/14/CSS实现单行、多行文本溢出显示省略号（…）/index.html">
+<meta property="og:url" content="https://lovexinforever.github.io/2017/09/14/CSS实现单行多行文本溢出显示省略号(...)/index.html">
 <meta property="og:site_name" content="总有刁民想害朕~">
 <meta property="og:description" content="如果实现单行文本的溢出显示省略号同学们应该都知道用text-overflow:ellipsis属性来，当然还需要加宽度width属来兼容部分浏览。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170914-170831@2x.png">
 <meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170914-171043@2x.png">
-<meta property="og:updated_time" content="2017-09-14T09:29:43.000Z">
+<meta property="og:updated_time" content="2017-09-14T09:35:27.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CSS实现单行、多行文本溢出显示省略号（…）">
 <meta name="twitter:description" content="如果实现单行文本的溢出显示省略号同学们应该都知道用text-overflow:ellipsis属性来，当然还需要加宽度width属来兼容部分浏览。">
@@ -121,7 +121,7 @@
 
 
 
-  <link rel="canonical" href="https://lovexinforever.github.io/2017/09/14/CSS实现单行、多行文本溢出显示省略号（…）/"/>
+  <link rel="canonical" href="https://lovexinforever.github.io/2017/09/14/CSS实现单行多行文本溢出显示省略号(...)/"/>
 
 
 
@@ -312,7 +312,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lovexinforever.github.io/2017/09/14/CSS实现单行、多行文本溢出显示省略号（…）/">
+    <link itemprop="mainEntityOfPage" href="https://lovexinforever.github.io/2017/09/14/CSS实现单行多行文本溢出显示省略号(...)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="总有刁民想害朕">
@@ -417,7 +417,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  142
+                  146
                 </span>
               
 
@@ -464,6 +464,7 @@
 <p>但是这个属性只支持单行文本的溢出显示省略号，如果我们要实现多行文本溢出显示省略号呢。</p>
 <h2 id="多行显示"><a href="#多行显示" class="headerlink" title="多行显示"></a>多行显示</h2><h3 id="实现方法-1"><a href="#实现方法-1" class="headerlink" title="实现方法"></a>实现方法</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.multiline</span> &#123;</div><div class="line">           <span class="attribute">margin-top</span>: <span class="number">20px</span>;</div><div class="line">           <span class="attribute">display</span>: -webkit-box;</div><div class="line">           <span class="attribute">-webkit-box-orient</span>: vertical;</div><div class="line">           <span class="attribute">-webkit-line-clamp</span>: <span class="number">3</span>;</div><div class="line">           <span class="attribute">overflow</span>: hidden;</div><div class="line">           <span class="attribute">width</span>: <span class="number">300px</span>;</div><div class="line">       &#125;</div></pre></td></tr></table></figure>
 <h3 id="效果如图-1"><a href="#效果如图-1" class="headerlink" title="效果如图"></a>效果如图</h3><p><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170914-171043@2x.png"></p>
+<p><a href="https://github.com/lovexinforever/blog_demo/tree/master/css%E4%B8%80%E8%A1%8C%E6%88%96%E5%A4%9A%E8%A1%8C%E6%98%BE%E7%A4%BA" target="_blank" rel="external">代码下载</a></p>
 
       
     </div>
