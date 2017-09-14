@@ -7,7 +7,7 @@ tags:
 - 版本管理
 - CI
 - AppVeyor
-- Git
+- git
 categories:
 - 技术
 ---
