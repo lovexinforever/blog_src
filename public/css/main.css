@@ -1972,7 +1972,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #90ff83;
+  background: #e99fb9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3184,6 +3184,11 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.zhidingtop {
+  background: #f00;
+  padding: 2px 4px 2px 4px;
+  color: #fff;
 }
 .zhidingtop {
   background: #f00;
