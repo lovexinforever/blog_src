@@ -309,7 +309,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: vh8Dl1hIwB
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -353,8 +353,8 @@ valine:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-baidushare:
- type: button
+# baidushare:
+#  type: button
 
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
@@ -403,7 +403,7 @@ duoshuo_info:
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable: true
+  enable: false
   app_id: 481071602258089
   fb_admin: timding412
   like_button:  true
@@ -413,7 +413,7 @@ facebook_sdk:
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable: true
+  enable: false
   num_of_posts: 10  # min posts num is 1
   width: 100%       # default width is 550px
   scheme: light     # default scheme is light (light or dark)
@@ -430,8 +430,8 @@ vkontakte_api:
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
-  enable: false
-  id:     #<app_id>
+  enable: true
+  id:     7017
   color:  fc6423
 
 
