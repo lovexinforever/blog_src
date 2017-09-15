@@ -116,15 +116,15 @@
           var data = res.list[j].arr;
           var liTmpl = "";
           for (var i = 0, len = data.link.length; i < len; i++) {
-            var minSrc = 'https://github.com/lovexinforever/blog_back_up/min_photos/' + data.link[i];
-            var src = 'https://github.com/lovexinforever/blog_back_up/photos/' + data.link[i];
+            var minSrc = 'https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/min_photos/' + data.link[i];
+            var src = 'https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/photos/' + data.link[i];
             var type = data.type[i];
             var target = src + (type === 'video' ? '.mp4' : '.jpg');
             src += '';
   
             liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
                   <a href="' + src + '" itemprop="contentUrl" data-size="1080x1080" data-type="' + type + '" data-target="' + src + '">\
-                    <img class="reward-img" data-type="' + type + '" data-src="' + minSrc + '" src="/assets/img/empty.png" itemprop="thumbnail" onload="lzld(this)">\
+                    <img class="reward-img" data-type="' + type + '" data-src="' + src + '" src="./assets/empty.jpeg" itemprop="thumbnail" onload="lzld(this)">\
                   </a>\
                   <figcaption style="display:none" itemprop="caption description">' + data.text[i] + '</figcaption>\
               </figure>';
@@ -169,8 +169,7 @@
       function loadData(success) {
         if (!searchData) {
           var xhr = new XMLHttpRequest();
-          xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
-          xhr.open('GET', 'https://github.com/lovexinforever/blog_back_up/blob/master/photos/data.json?t=' + +new Date(), true);
+          xhr.open('GET', './data.json?t=' + +new Date(), true);
   
           xhr.onload = function() {
             if (this.status >= 200 && this.status < 300) {
@@ -231,6 +230,7 @@
         }
   
         function lazyload(opts) {
+            console.log("lazyload")
           opts = merge({
             'offset': 333,
             'src': 'data-src',

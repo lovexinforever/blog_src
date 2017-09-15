@@ -77,17 +77,17 @@
 
 
 
-<meta name="description" content="Photos    待续     图片正在加载中…    (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($s">
+<meta name="description" content="Photos     图片正在加载中…          (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].append">
 <meta property="og:type" content="website">
 <meta property="og:title" content="photos">
 <meta property="og:url" content="https://lovexinforever.github.io/photos/index.html">
 <meta property="og:site_name" content="总有刁民想害朕~">
-<meta property="og:description" content="Photos    待续     图片正在加载中…    (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($s">
+<meta property="og:description" content="Photos     图片正在加载中…          (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].append">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-15T02:22:52.000Z">
+<meta property="og:updated_time" content="2017-09-15T06:25:32.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="photos">
-<meta name="twitter:description" content="Photos    待续     图片正在加载中…    (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($s">
+<meta name="twitter:description" content="Photos     图片正在加载中…          (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].append">
 
 
 
@@ -324,8 +324,21 @@
         
         
           <p><link rel="stylesheet" href="./ins.css"></p>
-<p><div class="photos-btn-wrap"><br>    <a class="photos-btn active" href="javascript:void(0)" target="_blank" rel="external">Photos</a><br>    <a class="photos-btn" href="#">待续</a><br></div></p>
-<p><div class="instagram itemscope"><br>    <a href="https://lovexinforever.github.io" target="_blank" class="open-ins">图片正在加载中…</a><br></div></p>
+<link rel="stylesheet" href="./photoswipe.css"> 
+
+<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+<link rel="stylesheet" href="./default-skin.css"> 
+
+
+<p><div class="photos-btn-wrap"><br>    <a class="photos-btn active" href="javascript:void(0)" target="_blank" rel="external">Photos</a><br></div></p>
+<p><div class="instagram itemscope"><br>    <a href="https://lovexinforever.github.io" target="_blank" class="open-ins">图片正在加载中…</a><br></div><br><!-- Core JS file --></p>
+<script src="./photoswipe.min.js"></script> 
+
+<!-- UI JS file -->
+<script src="./photoswipe-ui-default.min.js"></script> 
 <script>
   (function() {
     var loadScript = function(path) {
