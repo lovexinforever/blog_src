@@ -116,8 +116,8 @@
           var data = res.list[j].arr;
           var liTmpl = "";
           for (var i = 0, len = data.link.length; i < len; i++) {
-            var minSrc = 'https://github.com/lovexinforever/blog_back_up/min_photos/' + data.link[i];
-            var src = 'https://github.com/lovexinforever/blog_back_up/photos/' + data.link[i];
+            var minSrc = 'https://github.com/lovexinforever/blog_back_up/blob/master/min_photos/' + data.link[i];
+            var src = 'https://github.com/lovexinforever/blog_back_up/blob/master/photos/' + data.link[i];
             var type = data.type[i];
             var target = src + (type === 'video' ? '.mp4' : '.jpg');
             src += '';
@@ -169,9 +169,8 @@
       function loadData(success) {
         if (!searchData) {
           var xhr = new XMLHttpRequest();
-          
-          xhr.open('GET', 'https://github.com/lovexinforever/blog_back_up/blob/master/photos/data.json?t=' + +new Date(), true);
-          xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+          xhr.open('GET', './data.json?t=' + +new Date(), true);
+  
           xhr.onload = function() {
             if (this.status >= 200 && this.status < 300) {
               var res = JSON.parse(this.response);
