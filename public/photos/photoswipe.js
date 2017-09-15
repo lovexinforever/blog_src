@@ -1,0 +1,1 @@
+const PhotoSwipe = require('photoswipe');
