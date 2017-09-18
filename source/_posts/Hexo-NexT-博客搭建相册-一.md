@@ -9,7 +9,7 @@ tags:
 categories:
 - 技术
 - Hexo
-top: 4
+top: 5
 ---
 <img src="http://pic.58pic.com/58pic/15/37/17/12n58PICyI3_1024.jpg" class="full-image" />
   用Hexo + NexT 搭建了博客之后,就想搭建一个相册.ps:真是瞎折腾!.自己上网查了些资料,摸索摸索,终于搭建好了.这里写个教程,由于东西比较多,教程分为两部分.
