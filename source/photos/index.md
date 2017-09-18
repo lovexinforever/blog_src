@@ -1,5 +1,5 @@
 ---
-title: photos
+title: 我的相册
 date: 2017-09-15 09:51:05
 type: "photos"
 comments: false
