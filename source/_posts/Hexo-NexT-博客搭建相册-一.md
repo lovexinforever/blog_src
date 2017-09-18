@@ -12,15 +12,15 @@ categories:
 top: 4
 ---
 <img src="http://pic.58pic.com/58pic/15/37/17/12n58PICyI3_1024.jpg" class="full-image" />
-### 用Hexo + NexT 搭建了博客之后,就想搭建一个相册.ps:真是瞎折腾!.自己上网查了些资料,摸索摸索,终于搭建好了.这里写个教程,由于东西比较多,教程分为两部分.
+  用Hexo + NexT 搭建了博客之后,就想搭建一个相册.ps:真是瞎折腾!.自己上网查了些资料,摸索摸索,终于搭建好了.这里写个教程,由于东西比较多,教程分为两部分.
 <!--more-->
 
 实现想法
-----------
+-----------
 在 github 上面创建一个相册库,当有更新时,提交到 github 上面,同时在博客 resource 下面生成一个 data.json来生成所有相册文件的 json 文件,博客读取 data.json 来展示相册
 
 创建相册库
-----------
+-----------
 在 github 上面创建一个仓库,命名为 `blog_back_up` (仓库名字随便). 用 `git clone` 把仓库 clone 到本地来.
 > cd blog_back_up
 
@@ -28,7 +28,7 @@ top: 4
 > 相册图片命名方式 : `yyyy-MM-dd_des.jpg/png/jpef/gif`. eg: 2017-9-18_蝴蝶. jpg
 
 处理图片
-----------
+-----------
 图片的处理 我用 python 脚本来处理,这样每次只要执行脚本就可以了.
 - 裁剪图片
 ```
@@ -130,16 +130,16 @@ def handle_photo():
 完成的 python 下载地址 <a href="https://github.com/lovexinforever/blog_back_up/blob/master/tool.py" target="">tool.py</a>
 
 使用
-----------
+-----------
 `python3 tool.py`
 因为我用的是 python3 这里可以根据你的 python 版本来使用
 
 QA:
-----------
+-----------
 如果出现 `from PIL import Image` 这里报错.说明没有 PIL 这个库.
 执行 `python3 -m pip install Pillow`
 
 结束语
-----------
+-----------
 目前为止,相册库已经处理完毕,接下来会更新 hexo 怎么使用相册库.
 
