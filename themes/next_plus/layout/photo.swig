@@ -7,7 +7,7 @@
 {% block content %}
 
   {#################}
-  {### TAG BLOCK ###}
+  {### Photo BLOCK ###}
   {#################}
   <div class="post-block photo">
 
@@ -18,7 +18,7 @@
   </div>
   
   {#####################}
-  {### END TAG BLOCK ###}
+  {### END Photo BLOCK ###}
   {#####################}
 
   {% include '_partials/pagination.swig' %}
