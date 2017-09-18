@@ -33,36 +33,8 @@ top: 4
 > hexo new page "photos"
 
 修改 photos 下的 index.md文件
-`
----
-title: 我的相册
-date: 2017-09-15 09:51:05
-type: "photos"
-comments: false
----
-<link rel="stylesheet" href="./ins.css">
- <link rel="stylesheet" href="./photoswipe.css"> 
-<link rel="stylesheet" href="./default-skin/default-skin.css"> 
-<div class="photos-btn-wrap">
-	<a class="photos-btn active" href="javascript:void(0)">Photos</a>
-</div>
-<div class="instagram itemscope">
-	<a href="https://lovexinforever.github.io" target="_blank" class="open-ins">图片正在加载中…</a>
-</div>
- 
-<script>
-  (function() {
-    var loadScript = function(path) {
-      var $script = document.createElement('script')
-      document.getElementsByTagName('body')[0].appendChild($script)
-      $script.setAttribute('src', path)
-    }
-    setTimeout(function() {
-        loadScript('./ins.js')
-    }, 0)
-  })()
-</script>
-`
+由于字数限制,代码不贴出来了,大家可以在我的 github 上面下载
+<a href="https://github.com/lovexinforever/blog_back_up/blob/master/index.md">index.md</a>
 其中 `<a href="https://lovexinforever.github.io" target="_blank" class="open-ins">图片正在加载中…</a>`中的 url 替换成你的博客网址.
 需要 三个 css 文件 和一个 js 文件.都在我的 github 上面 ,其中`photoswipe.css`和`default-skin.css`这 css 是查看图片插件的 css, 后面会说到,把这些 css 和 js 文件都在 photos 文件夹下面
 <a href="https://github.com/lovexinforever/blog_back_up/blob/master/ins.css">ins.css</a>
