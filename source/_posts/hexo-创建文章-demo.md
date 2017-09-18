@@ -1,3 +1,4 @@
+---
 title: hexo 创建文章 demo
 date: 2015-12-23 09:31:52
 tags:

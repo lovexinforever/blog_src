@@ -1,3 +1,4 @@
+---
 title: 关于用 hexo d 失败的解决方法
 date: 2015-12-25 13:25:05
 tags: hexo
