@@ -20,7 +20,8 @@ figure {
     border : 0;
 }
 .instagram .year {
-	font-size: 16px;
+	font-size: 20px;
+	padding-left: 5px;
 }
 .instagram .open-ins{
 	padding: 10px 0;
@@ -54,7 +55,6 @@ figure {
 	display: flex;
 	flex-wrap: wrap;
 	clear: both;
-	width: 100%;
 	text-align: left;
 }
 .instagram .album li{
