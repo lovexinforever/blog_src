@@ -10,6 +10,7 @@ categories:
 - 技术
 - Hexo
 top: 4
+essential: true
 ---
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505726176244&di=4cfcaa9b699b336d366ff823c5625f32&imgtype=0&src=http%3A%2F%2Fimg10.3lian.com%2Fsc6%2Fshow%2F08%2F19%2F20110510230141386.jpg" class="full-image" />
 

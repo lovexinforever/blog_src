@@ -1986,7 +1986,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8b90dd;
+  background: #ff9971;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3206,6 +3206,11 @@ hr {
 }
 .zhidingtop {
   background: #f00;
+  padding: 2px 4px 2px 4px;
+  color: #fff;
+}
+.jingping {
+  background: #00a8c3;
   padding: 2px 4px 2px 4px;
   color: #fff;
 }

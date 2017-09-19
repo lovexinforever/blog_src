@@ -2,6 +2,7 @@
 title: Hexo的版本控制与持续集成
 date: 2017-09-13 13:35:06
 top: 3
+essential: true
 tags:
 - 持续集成
 - 版本管理
