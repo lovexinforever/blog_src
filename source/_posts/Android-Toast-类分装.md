@@ -8,9 +8,10 @@ categories:
 - 日志
 - 技术
 - Android
+photos: 
+- /imgs/bg2.jpg
 
 ---
-<img src="/imgs/bg2.jpg" class="full-image" />
 <blockquote class="blockquote-center"><h2>每天积累一点</h2></br>总有刁民想害朕</blockquote>
 
 Android Toast的用法
