@@ -5,8 +5,8 @@ tags:
 - hexo
 - node.js
 categories: 
-- 日志
 - 技术
+- 日志
 - Android
 photos: 
 - /imgs/bg2.jpg

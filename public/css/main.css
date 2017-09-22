@@ -1309,7 +1309,7 @@ pre .javascript .function {
   visibility: visible;
 }
 .posts-expand .post-body ul li {
-  list-style: circle;
+  list-style: square inside url("../imgs/eg_arrow.gif");
 }
 .posts-expand .post-body img {
   box-sizing: border-box;
@@ -1986,7 +1986,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd6e9;
+  background: #a762c6;
 }
 .links-of-blogroll {
   font-size: 13px;
