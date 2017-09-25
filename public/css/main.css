@@ -408,11 +408,14 @@ table {
   table-layout: fixed;
   word-wrap: break-all;
 }
-table>tbody>tr:nth-of-type(odd) {
+table>tbody>tr:nth-of-type(even) {
   background-color: #f9f9f9;
 }
 table>tbody>tr:hover {
   background-color: #f5f5f5;
+}
+table>thead>tr {
+  background-color: #ddd;
 }
 caption,
 th,
@@ -1986,7 +1989,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a762c6;
+  background: #cc0dff;
 }
 .links-of-blogroll {
   font-size: 13px;

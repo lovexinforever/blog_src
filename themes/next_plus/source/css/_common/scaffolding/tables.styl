@@ -9,8 +9,11 @@ table {
   word-wrap: break-all;
 }
 table>tbody>tr {
-  &:nth-of-type(odd) { background-color: $table-row-odd-bg-color; }
+  &:nth-of-type(even) { background-color: $table-row-odd-bg-color; }
   &:hover { background-color: $table-row-hover-bg-color; }
+}
+table>thead>tr {
+  background-color: #ddd; 
 }
 
 caption, th, td {
