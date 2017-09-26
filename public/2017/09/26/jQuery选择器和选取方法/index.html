@@ -63,7 +63,7 @@
 <link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="墨竹寒舍,一知半解,总有刁民想害朕" />
+  <meta name="keywords" content="HTML5,js,JQuery,选择器," />
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="什么都不想写 ,好累!!困!!!!!!!!!">
+<meta name="description" content="在 h5 开发中,JQuery 选择器经常用到,也尤其重要,用好选择器,能让你的开发事半功倍.下面是整理的 jquery 选择的使用和方法.">
+<meta name="keywords" content="HTML5,js,JQuery,选择器">
 <meta property="og:type" content="article">
-<meta property="og:title" content="杂想">
-<meta property="og:url" content="https://lovexinforever.github.io/2017/09/20/杂想/index.html">
+<meta property="og:title" content="jQuery选择器和选取方法(一)">
+<meta property="og:url" content="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/index.html">
 <meta property="og:site_name" content="总有刁民想害朕~">
-<meta property="og:description" content="什么都不想写 ,好累!!困!!!!!!!!!">
+<meta property="og:description" content="在 h5 开发中,JQuery 选择器经常用到,也尤其重要,用好选择器,能让你的开发事半功倍.下面是整理的 jquery 选择的使用和方法.">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-21T05:30:23.000Z">
+<meta property="og:updated_time" content="2017-09-26T09:44:51.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="杂想">
-<meta name="twitter:description" content="什么都不想写 ,好累!!困!!!!!!!!!">
+<meta name="twitter:title" content="jQuery选择器和选取方法(一)">
+<meta name="twitter:description" content="在 h5 开发中,JQuery 选择器经常用到,也尤其重要,用好选择器,能让你的开发事半功倍.下面是整理的 jquery 选择的使用和方法.">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="https://lovexinforever.github.io/2017/09/20/杂想/"/>
+  <link rel="canonical" href="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/"/>
 
 
 
 
 
-  <title>杂想 | 总有刁民想害朕~</title>
+  <title>jQuery选择器和选取方法(一) | 总有刁民想害朕~</title>
   
 
 
@@ -323,7 +324,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lovexinforever.github.io/2017/09/20/杂想/">
+    <link itemprop="mainEntityOfPage" href="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="总有刁民想害朕">
@@ -340,7 +341,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">杂想</h2>
+          <h2 class="post-title" itemprop="name headline">jQuery选择器和选取方法(一)</h2>
         
 
         <div class="post-meta">
@@ -352,8 +353,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-20T20:53:44+08:00">
-                2017-09-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-26T16:36:10+08:00">
+                2017-09-26
               </time>
             
 
@@ -368,12 +369,56 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-09-21T13:30:23+08:00">
-                2017-09-21
+              <time title="更新于" itemprop="dateModified" datetime="2017-09-26T17:44:51+08:00">
+                2017-09-26
               </time>
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/HTML5/" itemprop="url" rel="index">
+                    <span itemprop="name">HTML5</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/HTML5/JS/" itemprop="url" rel="index">
+                    <span itemprop="name">JS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -396,7 +441,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  9
+                  2,230
                 </span>
               
 
@@ -412,14 +457,26 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  8
                 </span>
               
             </div>
           
 
         
+            <span class="post-meta-item-icon">
+                  <i class="fa fa-thumb-tack zhidingtop">置顶</i>
+                </span>
+            
           
+          
+            <span class="post-meta-divider">|</span>
+          
+          
+            <span class="post-meta-item-icon">
+                  <i class="fa fa-newspaper-o jingping">精品</i>
+                </span>
+            
           
 
 
@@ -439,7 +496,20 @@
       
 
       
-        <p>什么都不想写 ,好累!!困!!!!!!!!!</p>
+        <p>在 h5 开发中,<code>JQuery</code> 选择器经常用到,也尤其重要,用好选择器,能让你的开发事半功倍.下面是整理的 jquery 选择的使用和方法.<br><a id="more"></a></p>
+<h2 id="jQuery选择器"><a href="#jQuery选择器" class="headerlink" title="jQuery选择器"></a>jQuery选择器</h2><p>在CSS3选择器标淮草案定义的选择器语法中，jQuery支持相当完整的一套子集，同时还添加了一些非标准但很有用的伪类。注意:本节讲述的是 jQuery选择器。其中有不少选择器(但不是全部)可以在CSS样式表中使用。选择器语法有三层结构。你肯定已经见过选择器中最简单的形式。<code>”#test”</code>选取id属性为”test”的元素。<code>”blockquote”</code>选取文档中的所有<code>&lt;blockquote&gt;</code>元素，而<code>”div.note”</code> 则选取所有class属性为<code>”note”</code>的<code>div</code>元素。简单选择器可以组合成“组合选择器”，比如 <code>“div.note&gt;p”</code>和<code>“blockquote i”</code>，只要用组合字符做分隔符就行。简单选择器和组合选择器还可以分组成逗号分隔的列表。这种选择器组是传递给$()函数最常见的形式。在解释组合选择器 和选择器组之前，我们必须先了解简单选择器的语法。</p>
+<h2 id="简单选择器"><a href="#简单选择器" class="headerlink" title="简单选择器"></a>简单选择器</h2><p>简单选择器的开头部分(显式或隐式地)是标签类型声明。例如，如果只对<code>&lt;p&gt;</code>元素感兴趣，简单选择器可以用<code>“p”</code>开头。如果选取的元素和标签名无关，则可以使用通配符<code>“*”</code>号来代替。如果选择器没有以标签名或通配符开头，则隐式含有一个通配符。</p>
+<p>标签名或通配符指定了备选文档元素的一个初始集。在简单选择器中，标签类型声明之后的部分由零个或多个过滤器组成。过滤器从左到右应用，和书写顺序一致，其中每一个都会缩小选中元素集。下表列举了jQuery支持的过滤器。</p>
+<table><thead><tr><td>标签</td><td>描述</td></tr></thead><tbody><tr><td>#id</td><td>匹配id属性为id的元素。在有效的}ITML文档中，永远不会出现多个元素拥有相同的ID，因此该过滤器通常作为独立选择器来使用</td></tr><tr><td>.class</td><td>匹配class属性(是一串被解析成用空格分隔的单词列表)含有class单词的所有元素</td></tr><tr><td>[attr]</td><td>匹配拥有attr属性(和值无关)的所有元素</td></tr><tr><td>[attr=val]</td><td>匹配拥有attr属性且值为val的所有元素</td></tr><tr><td>[attr!=val]</td><td>匹配没有attr属性、或attr属性的值不为val的所有元素((jQuery的扩展)</td></tr><tr><td>[attr^=val]</td><td>匹配attr属性值以val开头的元素</td></tr><tr><td>[attr$=val]</td><td>匹配attr属性值以val结尾的元素</td></tr><tr><td>[attr*=val]</td><td>匹配attr属性值含有val的元素</td></tr><tr><td>[attr~=val]</td><td>当其attr属性解释为一个由空格分隔的单词列表时，匹配其中包含单词val的元素。因此选择器<code>“div.note”</code>与<code>“div [class~=note]”</code>相同</td></tr><tr><td>[attr|=val]</td><td>    匹配正在动画中的元素，该动画是由jQuery产生的</td></tr><tr><td>:button</td><td>匹配<code>&lt;button type=”button”&gt;</code>和<code>&lt;input type=”button”&gt;</code>元素(jQuery的扩展)</td></tr><tr><td>:checkbox</td><td>匹配<code>&lt;input type=”checkbox”&gt;</code>元素( jQuery的扩展)，当显式带有input标签前缀<code>”input:checkbox”</code>时，该过滤器更高效</td></tr><tr><td>:checked</td><td>匹配选中的input元素</td></tr><tr><td>:contains(text)</td><td>匹配含有指定text文本的元素(jQuery的扩展)。该过滤器中的圆括号确定了文本的范围—无须添加引号。被过滤的元素的文本是由textContent或innerText属性来决定的—这是原始文档文本，不带标签和注释</td></tr><tr><td>:disabled</td><td>匹配禁用的元素</td></tr><tr><td>:empty</td><td>匹配没有子节点、没有文本内容的元素</td></tr><tr><td>:enabled</td><td>匹配没有禁用的元素</td></tr><tr><td>:eq(n)</td><td>匹配基于文档顺序、序号从0开始的选中列表中的第n个元素(jQuery的扩展)</td></tr><tr><td>:even</td><td>匹配列表中偶数序号的元素。由于第一个元素的序号是0，因此实际上选中的是第1个、第3个、第5个等元素(jQuery的扩展)</td></tr><tr><td>:file</td><td>    匹配<code>&lt;input type=”file”&gt;</code>元素(jQuery的扩展)</td></tr><tr><td>:first</td><td>匹配列表中的第一个元素。和<code>“:eq(0)”</code>相同(jQuery的扩展)</td></tr><tr><td>:first-child</td><td>匹配的元素是其父节点的第一个子元素。注意:这与“:first”不同</td></tr><tr><td>:gt(n)</td><td>匹配基于文档顺序、序号从0开始的选中列表中序号大于n的元素( jQuery的扩展)</td></tr><tr><td>:has(sel)</td><td>匹配的元素拥有匹配内嵌选择器sel的子孙元素</td></tr><tr><td>:header</td><td>匹配所有头元素:<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>或<code>&lt;h6&gt;</code> (jQuery的扩展)</td></tr><tr><td>:hidden</td><td>匹配所有在屏幕上不可见的元素:大体上可以认为这些元素的offsetWidth和offsetHeight为0</td></tr><tr><td>:image</td><td>匹配<code>&lt;input type=”image”&gt;</code>元素。注意该过滤器不会匹配<code>&lt;img&gt;</code>元素( jQuery的扩展)</td></tr><tr><td>:input</td><td>匹配用户输入元素:<code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;select&gt;</code>和<code>&lt;button&gt;</code></td></tr><tr><td>:last</td><td>匹配选中列表中的最后一个元素</td></tr><tr><td>:last-child</td><td>匹配的元素是其父节点的最后一个子元素。注意:这与<code>“:last”</code>不同</td></tr><tr><td><code>:lt(n)</code></td><td>匹配基于文档顺序、序号从0开始的选中列表中序号小于n的元素</td></tr><tr><td>:not(sel)</td><td>匹配的元素不匹配内嵌选择器sel</td></tr><tr><td>:nth(n)</td><td>与<code>“:eq(n)”</code>相同</td></tr><tr><td>:nth-child(n)</td><td>匹配的元素是其父节点的第n个子元素。。可以是数值、单词even,单词odd或计算公式。 使用<code>“:nth-child(even)”</code>来选取那些在其父节点的子元素中排行第2或第4等序号的元素。使用<code>“:nth-child(odd)”</code>来选取那 些在其父节点的子元素中排行第1、第3等序号的元素。<br>更常见的情况是，n是xn或x n+y这种计算公式，其中x和y是整数，n是字面量n。因此可以用<code>nth-child(3n+1)</code>来选取第1个、第4个、第7个等元素。<br>注意该过滤器的序号是从1开始的，因此如果一个元素是其父节点的第一个子元素，会认为它是奇数元素，匹配的是3n+1，而不是3n。要和<code>“:even</code>以及<code>“:odd”</code>过滤器区分开来，后者匹配的序号是从0开始的。</td></tr><tr><td>:odd</td><td>匹配列表中奇数(从0开始)序号的元素。注意序号为1和3的元素分别是第2个和第4个匹配元素</td></tr></tbody></table>
+
+<p>注意:表中列举的部分选择器在圆括号中接受参数。例如，下面这个选择器选取的元素在其父节点的子元素中排行第1或第2等，只要它们含有<code>“JavaScript”</code>单词，就不包含元素。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">p</span><span class="selector-pseudo">:nth-child(3n+1)</span>: <span class="selector-tag">text</span> (<span class="selector-tag">JavaScript</span>)<span class="selector-pseudo">:not(</span><span class="selector-pseudo">:has(a))</span></div></pre></td></tr></table></figure>
+<p>通常来说，指定标签类型前缀，可以让过滤器的运行更高效。例如，不要简单使用<code>”:radio”</code>来选取单选框按钮，使用<code>“input:radio”</code>会 更好。ID过滤器是个例外，不添加标签前缀时它会更高效。例如，选择器“#address”通常比更明确的“form#address”更高效。</p>
+<h2 id="组合选择器"><a href="#组合选择器" class="headerlink" title="组合选择器"></a>组合选择器</h2><p>使用特殊操作符或“组合符”可以将简单选择器组合起来，表达文档树中元素之间的关系。下表列举了jQuery支持的组合选择器。这些组合选择器与CSS3支持的组合选择器是一样的。<br>下面是组合选择器的一些例子:<br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">"blockquote i"</span>              //匹配<span class="variable">&lt;blockquote&gt;</span>里的<span class="variable">&lt;i&gt;</span>元素</div><div class="line"><span class="string">"ol &gt; li"</span>                   //<span class="variable">&lt;1i&gt;</span>元素是<span class="variable">&lt;of&gt;</span>的直接子元素</div><div class="line"><span class="string">"#output+*"</span>                 //id=<span class="string">"output"</span>元素后面的兄弟元素</div><div class="line"><span class="string">"div.note &gt; h1+p"</span>           //紧跟<span class="variable">&lt;h1&gt;</span>的<span class="variable">&lt;P&gt;</span>元素，在<span class="variable">&lt;div class="note"&gt;</span>里面</div></pre></td></tr></table></figure></p>
+<p>注意组合选择器并不限于组合两个选择器:组合三个甚至更多选择器也是允许的。组合选择器从左到右处理。</p>
+<h2 id="选择器组"><a href="#选择器组" class="headerlink" title="选择器组"></a>选择器组</h2><p>传递给$()函数(或在样式表中使用)的选择器就是选择器组，这是一个逗号分隔的列表，由一个或多个简单选择器或组合选择器构成。选择器组匹配的元 素只要匹配该选择器组中的任何一个选择器就行。对我们来说，一个简单选择器也可以认为是一个选择器组。下面是选择器组的一些例子:<br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">"h1, h2,h3"</span>             //匹配<span class="variable">&lt;h1&gt;</span>, <span class="variable">&lt;h2&gt;</span>和<span class="variable">&lt;h3&gt;</span>元素</div><div class="line"><span class="string">"#p1, #p2, #p3"</span>         //匹配id为p1, p2或p3的元素</div><div class="line"><span class="string">"div.note, p.note"</span>      //匹配class=<span class="string">"note"</span>的<span class="variable">&lt;div&gt;</span>和<span class="variable">&lt;P&gt;</span>元素</div><div class="line"><span class="string">"body&gt;p,div.note&gt;p"</span>     //<span class="variable">&lt;body&gt;</span>和<span class="variable">&lt;div class="note"&gt;</span>的<span class="variable">&lt;P&gt;</span>子元素</div></pre></td></tr></table></figure></p>
+<p>注意:CSS和jQuery选择器语法允许在简单选择器的某些过滤器中使用圆括号，但并不允许使用圆括号来进行更常见的分组。例如，不能把选择器组或组合选择器放在圆括号中并且当成简单选择器:<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">(<span class="selector-tag">h1</span>, <span class="selector-tag">h2</span>, h3)+<span class="selector-tag">p</span>          <span class="comment">//非法</span></div><div class="line">h1+<span class="selector-tag">p</span>, h2+<span class="selector-tag">p</span>, h3+<span class="selector-tag">p</span>        <span class="comment">//正确的写法</span></div></pre></td></tr></table></figure></p>
+<h2 id="总结语"><a href="#总结语" class="headerlink" title="总结语"></a>总结语</h2><p>到此讲解了 jquery 的选择器.下面一张将讲解 选择器的选取方法.</p>
 
       
     </div>
@@ -489,7 +559,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://lovexinforever.github.io/2017/09/20/杂想/" title="杂想">https://lovexinforever.github.io/2017/09/20/杂想/</a>
+    <a href="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/" title="jQuery选择器和选取方法(一)">https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -501,6 +571,18 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/HTML5/" rel="tag" class="fa fa-tag"> HTML5</a>
+          
+            <a href="/tags/js/" rel="tag" class="fa fa-tag"> js</a>
+          
+            <a href="/tags/JQuery/" rel="tag" class="fa fa-tag"> JQuery</a>
+          
+            <a href="/tags/选择器/" rel="tag" class="fa fa-tag"> 选择器</a>
+          
+        </div>
       
 
       
@@ -521,8 +603,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/09/19/Hexo-NexT-增加精品文章方法/" rel="next" title="Hexo+NexT 增加精品文章方法">
-                <i class="fa fa-chevron-left"></i> Hexo+NexT 增加精品文章方法
+              <a href="/2017/09/25/Html5-新元素/" rel="next" title="Html5 新元素">
+                <i class="fa fa-chevron-left"></i> Html5 新元素
               </a>
             
           </div>
@@ -530,10 +612,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/09/22/Android-获取当前网络连接类型/" rel="prev" title="Android 获取当前网络连接类型">
-                Android 获取当前网络连接类型 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -587,8 +665,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <img class="site-author-image" itemprop="image"
@@ -673,6 +760,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#jQuery选择器"><span class="nav-number">1.</span> <span class="nav-text">jQuery选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#简单选择器"><span class="nav-number">2.</span> <span class="nav-text">简单选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#组合选择器"><span class="nav-number">3.</span> <span class="nav-text">组合选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#选择器组"><span class="nav-number">4.</span> <span class="nav-text">选择器组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结语"><span class="nav-number">5.</span> <span class="nav-text">总结语</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
