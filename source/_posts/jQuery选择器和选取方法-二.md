@@ -60,7 +60,7 @@ $("div, p")             //使用选择器组
 $("div").add(p)         //给add()传入选择器
 $("div").add($("p"))    //给add()传入jQuery对象
 var paras = document.getElementsByTagName("p");       //类数组对象
-$("div").add(paras);        //给add()传入元素数组
+$("div").add(paras);        //给add()传入元素数组 
 ```
 
 将选中元素集用做上下文
