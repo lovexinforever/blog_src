@@ -5,7 +5,7 @@ tags:
 - python
 - 排序
 - 冒泡排序
-categoies:
+categories:
 - 技术
 - python
 essential: true
