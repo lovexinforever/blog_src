@@ -117,10 +117,11 @@ social_icons:
 
 # Blog rolls
 links_title: 友情链接
-links_layout: block
-#links_layout: inline
+# links_layout: block
+links_layout: inline
 links:
   木子李: https://lwl666666.github.io
+  pdf转换: https://smallpdf.com
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
