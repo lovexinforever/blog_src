@@ -2,9 +2,9 @@ clone_depth: 5
 
 environment:
   matrix:
-    - access_token:
-        secure: akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG 
-      repo: github
+    # - access_token:
+    #     secure: akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG 
+    #   repo: github
     - access_token: 
         secure: PCkIDofuF8bWWQhWnAtzGHPbBYc/tEmDjDDe1W8+AxlerJj1E73hhW68LSbsYtd5
       repo: coding
