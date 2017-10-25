@@ -1,10 +1,12 @@
 clone_depth: 5
 
 environment:
-  access_token:
-    secure: 
-    - akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG
-    - PCkIDofuF8bWWQhWnAtzGHPbBYc/tEmDjDDe1W8+AxlerJj1E73hhW68LSbsYtd5
+  matrix:
+    - access_token:
+        secure: akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG 
+    - access_token: 
+        secure: PCkIDofuF8bWWQhWnAtzGHPbBYc/tEmDjDDe1W8+AxlerJj1E73hhW68LSbsYtd5
+    
     
 
 install:
