@@ -3,8 +3,16 @@ clone_depth: 5
 environment:
   matrix:
     - access_token:
+        STATIC_SITE_REPO: https://github.com/lovexinforever/lovexinforever.github.io
+        TARGET_BRANCH: master
+        GIT_USER_EMAIL: tim_ding@qq.com
+        GIT_USER_NAME: timding
         secure: akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG 
     - access_token: 
+        STATIC_SITE_REPO: https://git.coding.net/HAPPY_TD/blog.git
+        TARGET_BRANCH: master
+        GIT_USER_EMAIL: tim_ding@qq.com
+        GIT_USER_NAME: timding
         secure: PCkIDofuF8bWWQhWnAtzGHPbBYc/tEmDjDDe1W8+AxlerJj1E73hhW68LSbsYtd5
     
     
