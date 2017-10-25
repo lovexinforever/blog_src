@@ -65,5 +65,5 @@ h1+p, h2+p, h3+p        //正确的写法
 
 总结语
 ----------
-到此讲解了 jquery 的选择器.下一篇文章<a href="https://lovexinforever.github.io/2017/09/27/jQuery选择器和选取方法-二/">将讲解 选择器的选取方法.
+到此讲解了 jquery 的选择器.下一篇文章<a href="https://timding.top/2017/09/27/jQuery选择器和选取方法-二/">将讲解 选择器的选取方法.
 

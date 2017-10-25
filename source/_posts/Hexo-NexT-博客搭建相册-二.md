@@ -14,11 +14,11 @@ essential: true
 ---
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505726176244&di=4cfcaa9b699b336d366ff823c5625f32&imgtype=0&src=http%3A%2F%2Fimg10.3lian.com%2Fsc6%2Fshow%2F08%2F19%2F20110510230141386.jpg" class="full-image" />
 
-上一篇文章 <a href="https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/">Hexo+NexT 博客搭建相册(一)</a> 讲解了怎样用 github 来创建相册库.现在来讲解怎样在 hexo 中使用相册库.
+上一篇文章 <a href="https://timding.top/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/">Hexo+NexT 博客搭建相册(一)</a> 讲解了怎样用 github 来创建相册库.现在来讲解怎样在 hexo 中使用相册库.
 <!-- more-->
 准备工作
 ----------
-按照 <a href="https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/">Hexo+NexT 博客搭建相册(一)</a> 搭建好相册库.
+按照 <a href="https://timding.top/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/">Hexo+NexT 博客搭建相册(一)</a> 搭建好相册库.
 
 增加相册style
 ----------
@@ -36,7 +36,7 @@ essential: true
 修改 photos 下的 index.md文件
 由于字数限制,代码不贴出来了,大家可以在我的 github 上面下载
 <a href="https://github.com/lovexinforever/blog_back_up/blob/master/index.md">index.md</a>
-其中 `<a href="https://lovexinforever.github.io" target="_blank" class="open-ins">图片正在加载中…</a>`中的 url 替换成你的博客网址.
+其中 `<a href="https://timding.top" target="_blank" class="open-ins">图片正在加载中…</a>`中的 url 替换成你的博客网址.
 需要 三个 css 文件 和一个 js 文件.都在我的 github 上面 ,其中`photoswipe.css`和`default-skin.css`这 css 是查看图片插件的 css, 后面会说到,把这些 css 和 js 文件都在 photos 文件夹下面
 <a href="https://github.com/lovexinforever/blog_back_up/blob/master/ins.css">ins.css</a>
 <a href="https://github.com/lovexinforever/blog_back_up/blob/master/photoswipe.css">photoswipe.css</a>
