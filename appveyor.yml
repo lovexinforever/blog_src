@@ -6,12 +6,14 @@ environment:
       TARGET_BRANCH: master
       GIT_USER_EMAIL: tim_ding@qq.com
       GIT_USER_NAME: timding
+      TEMP: C:\Users\appveyor\AppData\Local\Temp\1\static-site\
       access_token:
         secure: akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG 
     - STATIC_SITE_REPO: https://git.coding.net/HAPPY_TD/blog.git
       TARGET_BRANCH: master
       GIT_USER_EMAIL: tim_ding@qq.com
       GIT_USER_NAME: timding
+      TEMP: C:\Users\appveyor\AppData\Local\Temp\1\static-site\
       access_token: 
         secure: PCkIDofuF8bWWQhWnAtzGHPbBYc/tEmDjDDe1W8+AxlerJj1E73hhW68LSbsYtd5
     
@@ -37,7 +39,7 @@ on_success:
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
   - ps: git config --global user.email "$env:GIT_USER_EMAIL"
   - ps: git config --global user.name "$env:GIT_USER_NAME"
-  - ps: git clone --depth 5 -q --branch=$env:TARGET_BRANCH $env:STATIC_SITE_REPO %TEMP%\static-site
+  - ps: git clone --depth 5 -q --branch=$env:TARGET_BRANCH $env:STATIC_SITE_REPO $env:TEMP
   - cd %TEMP%\static-site
   - del * /f /q
   - for /d %%p IN (*) do rmdir "%%p" /s /q
