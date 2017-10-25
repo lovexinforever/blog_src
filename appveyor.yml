@@ -4,10 +4,8 @@ environment:
   matrix:
     - access_token:
         secure: akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG 
-      git_source: github.com
-    - access_token:
+    - access_token: 
         secure: PCkIDofuF8bWWQhWnAtzGHPbBYc/tEmDjDDe1W8+AxlerJj1E73hhW68LSbsYtd5
-      git_source: coding.net
     
     
 
@@ -27,14 +25,28 @@ artifacts:
   - path: public
 
 on_success:
-  - git config --global credential.helper store
-  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@$env:git_source`n"
-  - git config --global user.email "%GIT_USER_EMAIL%"
-  - git config --global user.name "%GIT_USER_NAME%"
-  - git clone --depth 5 -q --branch=%TARGET_BRANCH% %STATIC_SITE_REPO% %TEMP%\static-site
-  - cd %TEMP%\static-site
-  - del * /f /q
-  - for /d %%p IN (*) do rmdir "%%p" /s /q
-  - SETLOCAL EnableDelayedExpansion & robocopy "%APPVEYOR_BUILD_FOLDER%\public" "%TEMP%\static-site" /e & IF !ERRORLEVEL! EQU 1 (exit 0) ELSE (IF !ERRORLEVEL! EQU 3 (exit 0) ELSE (exit 1))
-  - git add -A
-  - if "%APPVEYOR_REPO_BRANCH%"=="master" if not defined APPVEYOR_PULL_REQUEST_NUMBER (git diff --quiet --exit-code --cached || git commit -m "Update Static Site" && git push origin %TARGET_BRANCH% && appveyor AddMessage "Static Site Updated")
+  matrix:
+    - allow_failures:
+      - git config --global credential.helper store
+      - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+      - git config --global user.email "%GIT_USER_EMAIL%"
+      - git config --global user.name "%GIT_USER_NAME%"
+      - git clone --depth 5 -q --branch=%TARGET_BRANCH% %STATIC_SITE_REPO% %TEMP%\static-site
+      - cd %TEMP%\static-site
+      - del * /f /q
+      - for /d %%p IN (*) do rmdir "%%p" /s /q
+      - SETLOCAL EnableDelayedExpansion & robocopy "%APPVEYOR_BUILD_FOLDER%\public" "%TEMP%\static-site" /e & IF !ERRORLEVEL! EQU 1 (exit 0) ELSE (IF !ERRORLEVEL! EQU 3 (exit 0) ELSE (exit 1))
+      - git add -A
+      - if "%APPVEYOR_REPO_BRANCH%"=="master" if not defined APPVEYOR_PULL_REQUEST_NUMBER (git diff --quiet --exit-code --cached || git commit -m "Update Static Site" && git push origin %TARGET_BRANCH% && appveyor AddMessage "Static Site Updated")
+    - allow_failures:
+      - git config --global credential.helper store
+      - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@coding.net`n"
+      - git config --global user.email "%GIT_USER_EMAIL%"
+      - git config --global user.name "%GIT_USER_NAME%"
+      - git clone --depth 5 -q --branch=%TARGET_BRANCH% %STATIC_SITE_REPO% %TEMP%\static-site
+      - cd %TEMP%\static-site
+      - del * /f /q
+      - for /d %%p IN (*) do rmdir "%%p" /s /q
+      - SETLOCAL EnableDelayedExpansion & robocopy "%APPVEYOR_BUILD_FOLDER%\public" "%TEMP%\static-site" /e & IF !ERRORLEVEL! EQU 1 (exit 0) ELSE (IF !ERRORLEVEL! EQU 3 (exit 0) ELSE (exit 1))
+      - git add -A
+      - if "%APPVEYOR_REPO_BRANCH%"=="master" if not defined APPVEYOR_PULL_REQUEST_NUMBER (git diff --quiet --exit-code --cached || git commit -m "Update Static Site" && git push origin %TARGET_BRANCH% && appveyor AddMessage "Static Site Updated")
