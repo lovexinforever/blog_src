@@ -39,7 +39,9 @@ on_success:
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@$env:repo`n"
   - ps: git config --global user.email "$env:GIT_USER_EMAIL"
   - ps: git config --global user.name "$env:GIT_USER_NAME"
-  - ps: if ($env:repo -eq "github.com"){ git clone --depth 5 -q --branch=$env:TARGET_BRANCH $env:STATIC_SITE_REPO C:\Users\appveyor\AppData\Local\Temp\1\static-site} else{ git clone https://$env:GIT_USER_NAME:$($env:access_token)@git.coding.net/HAPPY_TD/blog.git C:\Users\appveyor\AppData\Local\Temp\1\static-site}
+  - ps: if ($env:repo -eq "github.com"){ git clone --depth 5 -q --branch=$env:TARGET_BRANCH $env:STATIC_SITE_REPO C:\Users\appveyor\AppData\Local\Temp\1\static-site}
+        else{ 
+          git clone --depth 5 -q https://happy_td:$($env:access_token)@git.coding.net/HAPPY_TD/blog.git C:\Users\appveyor\AppData\Local\Temp\1\static-site}
   - cd C:\Users\appveyor\AppData\Local\Temp\1\static-site
   - del * /f /q
   - for /d %%p IN (*) do rmdir "%%p" /s /q
