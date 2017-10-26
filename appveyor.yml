@@ -40,7 +40,8 @@ on_success:
   - ps: git config --global user.email "$env:GIT_USER_EMAIL"
   - ps: git config --global user.name "$env:GIT_USER_NAME"
   - ps: |
-      if ($env:repo == "github.com"){ git clone --depth 5 -q --branch=$env:TARGET_BRANCH $env:STATIC_SITE_REPO C:\Users\appveyor\AppData\Local\Temp\1\static-site} else{ git clone https://$env:GIT_USER_NAME:$($env:access_token)@HAPPY_TD.coding.net/HAPPY_TD/blog.git}
+      if ($env:repo == "github.com"){ 
+        git clone --depth 5 -q $env:STATIC_SITE_REPO C:\Users\appveyor\AppData\Local\Temp\1\static-site} else{ git clone https://$env:GIT_USER_NAME:$($env:access_token)@HAPPY_TD.coding.net/HAPPY_TD/blog.git C:\Users\appveyor\AppData\Local\Temp\1\static-site}
   - cd C:\Users\appveyor\AppData\Local\Temp\1\static-site
   - del * /f /q
   - for /d %%p IN (*) do rmdir "%%p" /s /q
