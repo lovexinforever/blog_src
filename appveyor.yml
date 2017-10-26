@@ -36,7 +36,7 @@ artifacts:
 
 on_success:
   - git config --global credential.helper store
-  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@$env:repo.com`n"
+  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@$env:repo`n"
   - ps: git config --global user.email "$env:GIT_USER_EMAIL"
   - ps: git config --global user.name "$env:GIT_USER_NAME"
   - ps: git clone --depth 5 -q --branch=$env:TARGET_BRANCH $env:STATIC_SITE_REPO C:\Users\appveyor\AppData\Local\Temp\1\static-site
