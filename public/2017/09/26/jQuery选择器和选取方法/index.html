@@ -20,6 +20,7 @@
 
 
 
+
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 
@@ -83,11 +84,11 @@
 <meta name="keywords" content="HTML5,js,JQuery,选择器">
 <meta property="og:type" content="article">
 <meta property="og:title" content="jQuery选择器和选取方法(一)">
-<meta property="og:url" content="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/index.html">
+<meta property="og:url" content="https://timding.top/2017/09/26/jQuery选择器和选取方法/index.html">
 <meta property="og:site_name" content="总有刁民想害朕~">
 <meta property="og:description" content="在 h5 开发中,JQuery 选择器经常用到,也尤其重要,用好选择器,能让你的开发事半功倍.下面是整理的 jquery 选择的使用和方法.">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-27T06:26:14.000Z">
+<meta property="og:updated_time" content="2017-10-25T05:47:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="jQuery选择器和选取方法(一)">
 <meta name="twitter:description" content="在 h5 开发中,JQuery 选择器经常用到,也尤其重要,用好选择器,能让你的开发事半功倍.下面是整理的 jquery 选择的使用和方法.">
@@ -120,7 +121,7 @@
 
 
 
-  <link rel="canonical" href="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/"/>
+  <link rel="canonical" href="https://timding.top/2017/09/26/jQuery选择器和选取方法/"/>
 
 
 
@@ -324,7 +325,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/">
+    <link itemprop="mainEntityOfPage" href="https://timding.top/2017/09/26/jQuery选择器和选取方法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="总有刁民想害朕">
@@ -369,8 +370,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-09-27T14:26:14+08:00">
-                2017-09-27
+              <time title="更新于" itemprop="dateModified" datetime="2017-10-25T13:47:52+08:00">
+                2017-10-25
               </time>
             
           </span>
@@ -502,7 +503,7 @@
 <p>注意组合选择器并不限于组合两个选择器:组合三个甚至更多选择器也是允许的。组合选择器从左到右处理。</p>
 <h2 id="选择器组"><a href="#选择器组" class="headerlink" title="选择器组"></a>选择器组</h2><p>传递给$()函数(或在样式表中使用)的选择器就是选择器组，这是一个逗号分隔的列表，由一个或多个简单选择器或组合选择器构成。选择器组匹配的元 素只要匹配该选择器组中的任何一个选择器就行。对我们来说，一个简单选择器也可以认为是一个选择器组。下面是选择器组的一些例子:<br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">"h1, h2,h3"</span>             //匹配<span class="variable">&lt;h1&gt;</span>, <span class="variable">&lt;h2&gt;</span>和<span class="variable">&lt;h3&gt;</span>元素</div><div class="line"><span class="string">"#p1, #p2, #p3"</span>         //匹配id为p1, p2或p3的元素</div><div class="line"><span class="string">"div.note, p.note"</span>      //匹配class=<span class="string">"note"</span>的<span class="variable">&lt;div&gt;</span>和<span class="variable">&lt;P&gt;</span>元素</div><div class="line"><span class="string">"body&gt;p,div.note&gt;p"</span>     //<span class="variable">&lt;body&gt;</span>和<span class="variable">&lt;div class="note"&gt;</span>的<span class="variable">&lt;P&gt;</span>子元素</div></pre></td></tr></table></figure></p>
 <p>注意:CSS和jQuery选择器语法允许在简单选择器的某些过滤器中使用圆括号，但并不允许使用圆括号来进行更常见的分组。例如，不能把选择器组或组合选择器放在圆括号中并且当成简单选择器:<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">(<span class="selector-tag">h1</span>, <span class="selector-tag">h2</span>, h3)+<span class="selector-tag">p</span>          <span class="comment">//非法</span></div><div class="line">h1+<span class="selector-tag">p</span>, h2+<span class="selector-tag">p</span>, h3+<span class="selector-tag">p</span>        <span class="comment">//正确的写法</span></div></pre></td></tr></table></figure></p>
-<h2 id="总结语"><a href="#总结语" class="headerlink" title="总结语"></a>总结语</h2><p>到此讲解了 jquery 的选择器.下一篇文章<a href="https://lovexinforever.github.io/2017/09/27/jQuery选择器和选取方法-二/">将讲解 选择器的选取方法.</a></p>
+<h2 id="总结语"><a href="#总结语" class="headerlink" title="总结语"></a>总结语</h2><p>到此讲解了 jquery 的选择器.下一篇文章<a href="https://timding.top/2017/09/27/jQuery选择器和选取方法-二/">将讲解 选择器的选取方法.</a></p>
 
       
     </div>
@@ -552,7 +553,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/" title="jQuery选择器和选取方法(一)">https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/</a>
+    <a href="https://timding.top/2017/09/26/jQuery选择器和选取方法/" title="jQuery选择器和选取方法(一)">https://timding.top/2017/09/26/jQuery选择器和选取方法/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -690,7 +691,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">20</span>
+                <span class="site-state-item-count">21</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -826,6 +827,7 @@
       12.2k
     </span>
   
+  <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
 </div>
 
         
