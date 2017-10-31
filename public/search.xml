@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[git怎样删除未监视的文件untracked files]]></title>
+    <url>%2F2017%2F10%2F31%2Fgit%E6%80%8E%E6%A0%B7%E5%88%A0%E9%99%A4%E6%9C%AA%E7%9B%91%E8%A7%86%E7%9A%84%E6%96%87%E4%BB%B6untracked-files%2F</url>
+    <content type="text"><![CDATA[使用 git 中 经常需要还原文件. 如果是文件是 untracked files.则我们用 git clean 来还原12345678910111213# 删除 untracked filesgit clean -f # 连 untracked 的目录也一起删掉git clean -fd # 连 gitignore 的untrack 文件/目录也一起删掉 （慎用，一般这个是用来删掉编译出来的 .o之类的文件用的）git clean -xfd # 在用上述 git clean 前，墙裂建议加上 -n 参数来先看看会删掉哪些文件，防止重要文件被误删git clean -nxfdgit clean -nfgit clean -nfd 如果文件是 tracked files则我们用 git checkout来还原12345#还原指定文件git checkout files#全部还原git checkout .]]></content>
+      <categories>
+        <category>技术</category>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>untracked</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[七阶魔方中心块合并公式(含五阶魔方)]]></title>
     <url>%2F2017%2F10%2F26%2F%E4%B8%83%E9%98%B6%E9%AD%94%E6%96%B9%E4%B8%AD%E5%BF%83%E5%9D%97%E5%90%88%E5%B9%B6%E5%85%AC%E5%BC%8F-%E5%90%AB%E4%BA%94%E9%98%B6%E9%AD%94%E6%96%B9%2F</url>
     <content type="text"><![CDATA[分享一下 七阶魔方5乘5中心块拼法. 确实,一条一条拼中心实在不是个办法,我们只追求最笨,但最可靠的方法.如图1的红框内的中心,数字代表我们拼中心块的顺序,仔细观察一下,共5步,前后次序千万不能颠倒了. 咱们的思路是：先完成中间的3×3的中心块,再完成周围的5×5的中心块.而且这套公式不会破坏彼此的拼合（口诀：从三到五,先角后棱）.下面如果没有特殊说明,做公式时把魔方就放成图中那样,对着自己做公式. 一、3×3中心块：先完成序号1,再完成序号2. 1、序号1的公式：如图4,做公式：TR U TR’ U TR U2 TR’这样就完成一块,每一块都这样拼. 2、序号2公式,如图3,做公式：TR’ F’ MR’ F TR F’ MR也一样,每块都这样拼.以上就完成了3×3的中心块. 二、5×5中心块：按照序号345来拼. 1、序号3的公式其实和序号1的一样,公式套用7阶的写法很复杂,由于此公式在使用中不用7阶专用公式,因此你可以套用五阶的公式来做：TR U TR’ U TR U2 TR’这样就把所有的序号3给还原了. 2、序号4是最难处理的一步,因为这里涉及到左右两种镜像块,这需要你运用你的空间转换思维能力来还原,必须懂得变通才行,方法主要是参考序号2的公式,虽然有两种块,但都能按照“对应右面缺口”的方法来进行.如图2,把需要拼的绿色块放到相应位置,其目的是要拼到下方的红色方格内. 3、序号5就简单多了,完全参考序号2的公式就能全部解决：TR’ F’ MR’ F TR F’ MR （TR也是右边两层一起转,MR同样是右边第二层单独转）这样把所有的序号5也还原了. PS：序号4,你可以自行多研究研究,我真的好久不玩了,这套中心的拼法可以套用任何更高阶的魔方（N阶）,并且不会破坏任何联结,只要对应住缺口摆成图中的样子即可.另外图1中的蓝色部分其实也可以无视先后次序,关键在于理解.]]></content>
