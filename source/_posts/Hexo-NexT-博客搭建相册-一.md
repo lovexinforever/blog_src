@@ -143,5 +143,5 @@ QA:
 结束语
 -----------
 目前为止,相册库已经处理完毕,接下来会更新 hexo 怎么使用相册库. 
-<a href="https://timding.top/2017/09/18/Hexo-NexT-博客搭建相册-二/">Hexo+NexT 博客搭建相册(二)</a>
+<a href="https://lovexinforever.github.io/2017/09/18/Hexo-NexT-博客搭建相册-二/">Hexo+NexT 博客搭建相册(二)</a>
 
