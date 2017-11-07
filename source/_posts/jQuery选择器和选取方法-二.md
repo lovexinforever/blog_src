@@ -12,7 +12,7 @@ categories:
 - JS
 essential: true
 ---
-上一篇文章<a href="https://timding.top/2017/09/26/jQuery选择器和选取方法/">`jQuery选择器和选取方法(一)`</a>讲解了 JQuery 选择器.今天将说下选择的选取方法.
+上一篇文章<a href="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/">`jQuery选择器和选取方法(一)`</a>讲解了 JQuery 选择器.今天将说下选择的选取方法.
 <!--more-->
 选取方法
 ----------
