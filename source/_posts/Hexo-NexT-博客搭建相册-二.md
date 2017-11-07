@@ -53,7 +53,8 @@ js存放路径为
 
 引用 js 文件
 ----------
-在 `_layout.swig` 中插入
+<s>在 `_layout.swig` 中插入</s>
+在`layout/_scripts/pages/post-details.swig` 中插入
 ```
 <script src="{{ url_for(theme.js) }}/src/photoswipe.min.js?v={{ theme.version }}"></script>
 <script src="{{ url_for(theme.js) }}/src/photoswipe-ui-default.min.js?v={{ theme.version }}"></script>
