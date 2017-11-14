@@ -92,7 +92,7 @@
 <meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170918-162151@2x.png">
 <meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170918-162204@2x.png">
 <meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170918-162218@2x.png">
-<meta property="og:updated_time" content="2017-11-07T03:06:43.000Z">
+<meta property="og:updated_time" content="2017-11-07T06:00:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo+NexT 博客搭建相册(二)">
 <meta name="twitter:description" content="上一篇文章 Hexo+NexT 博客搭建相册(一) 讲解了怎样用 github 来创建相册库.现在来讲解怎样在 hexo 中使用相册库.">
@@ -371,7 +371,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-11-07T11:06:43+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-11-07T14:00:26+08:00">
                 2017-11-07
               </time>
             
@@ -432,7 +432,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  755
+                  756
                 </span>
               
 
@@ -488,8 +488,8 @@
 
       
         <p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505726176244&di=4cfcaa9b699b336d366ff823c5625f32&imgtype=0&src=http%3A%2F%2Fimg10.3lian.com%2Fsc6%2Fshow%2F08%2F19%2F20110510230141386.jpg" class="full-image"></p>
-<p>上一篇文章 <a href="https://timding.top/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/" target="_blank" rel="external">Hexo+NexT 博客搭建相册(一)</a> 讲解了怎样用 github 来创建相册库.现在来讲解怎样在 hexo 中使用相册库.<br><a id="more"></a></p>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>按照 <a href="https://timding.top/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/" target="_blank" rel="external">Hexo+NexT 博客搭建相册(一)</a> 搭建好相册库.</p>
+<p>上一篇文章 <a href="https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/">Hexo+NexT 博客搭建相册(一)</a> 讲解了怎样用 github 来创建相册库.现在来讲解怎样在 hexo 中使用相册库.<br><a id="more"></a></p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>按照 <a href="https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/">Hexo+NexT 博客搭建相册(一)</a> 搭建好相册库.</p>
 <h2 id="增加相册style"><a href="#增加相册style" class="headerlink" title="增加相册style"></a>增加相册style</h2><p>在 next 主题下面增加 photo.swig 页面.<br>路径如下</p>
 <blockquote>
 <p>next/layout</p>
@@ -499,7 +499,7 @@
 <blockquote>
 <p>hexo new page “photos”</p>
 </blockquote>
-<p>修改 photos 下的 index.md文件<br>由于字数限制,代码不贴出来了,大家可以在我的 github 上面下载<br><a href="https://github.com/lovexinforever/blog_back_up/blob/master/index.md" target="_blank" rel="external">index.md</a><br>其中 <code>&lt;a href=&quot;https://timding.top&quot; target=&quot;_blank&quot; class=&quot;open-ins&quot;&gt;图片正在加载中…&lt;/a&gt;</code>中的 url 替换成你的博客网址.<br>需要 三个 css 文件 和一个 js 文件.都在我的 github 上面 ,其中<code>photoswipe.css</code>和<code>default-skin.css</code>这 css 是查看图片插件的 css, 后面会说到,把这些 css 和 js 文件都在 photos 文件夹下面<br><a href="https://github.com/lovexinforever/blog_back_up/blob/master/ins.css" target="_blank" rel="external">ins.css</a><br><a href="https://github.com/lovexinforever/blog_back_up/blob/master/photoswipe.css" target="_blank" rel="external">photoswipe.css</a><br><a href="hhttps://github.com/lovexinforever/blog_back_up/tree/master/default-skin" target="_blank" rel="external">default-skin</a><br><a href="https://github.com/lovexinforever/blog_back_up/blob/master/ins.js" target="_blank" rel="external">ins.js</a><br>需要修改 <code>ins.js</code> 的 120和121行的 url 为你 github 的图片的网址.</p>
+<p>修改 photos 下的 index.md文件<br>由于字数限制,代码不贴出来了,大家可以在我的 github 上面下载<br><a href="https://github.com/lovexinforever/blog_back_up/blob/master/index.md" target="_blank" rel="external">index.md</a><br>其中 <code>&lt;a href=&quot;https://lovexinforever.github.io&quot; target=&quot;_blank&quot; class=&quot;open-ins&quot;&gt;图片正在加载中…&lt;/a&gt;</code>中的 url 替换成你的博客网址.<br>需要 三个 css 文件 和一个 js 文件.都在我的 github 上面 ,其中<code>photoswipe.css</code>和<code>default-skin.css</code>这 css 是查看图片插件的 css, 后面会说到,把这些 css 和 js 文件都在 photos 文件夹下面<br><a href="https://github.com/lovexinforever/blog_back_up/blob/master/ins.css" target="_blank" rel="external">ins.css</a><br><a href="https://github.com/lovexinforever/blog_back_up/blob/master/photoswipe.css" target="_blank" rel="external">photoswipe.css</a><br><a href="hhttps://github.com/lovexinforever/blog_back_up/tree/master/default-skin" target="_blank" rel="external">default-skin</a><br><a href="https://github.com/lovexinforever/blog_back_up/blob/master/ins.js" target="_blank" rel="external">ins.js</a><br>需要修改 <code>ins.js</code> 的 120和121行的 url 为你 github 的图片的网址.</p>
 <h2 id="查看相册插件-photoswipe"><a href="#查看相册插件-photoswipe" class="headerlink" title="查看相册插件 photoswipe"></a>查看相册插件 photoswipe</h2><p>上面 index.md 中加入了两个 css 文件,这是我们用 photoswipe 查看相册用到的.具体可以参考网址 <a href="http://photoswipe.com/" target="_blank" rel="external">photoswipe</a><br>这里我们已经把 css 文件加上了.之后我们要加上 js 文件 <a href="">photoswipe.min.js</a> 和<a href="">photoswipe-ui-default.min.js</a><br>js存放路径为</p>
 <blockquote>
 <p>next/source/js/src</p>
@@ -745,7 +745,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">22</span>
+                <span class="site-state-item-count">23</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -767,7 +767,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">37</span>
+                <span class="site-state-item-count">39</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -878,7 +878,7 @@
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
     <span title="Site words total count">
-      13.0k
+      13.4k
     </span>
   
   <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>

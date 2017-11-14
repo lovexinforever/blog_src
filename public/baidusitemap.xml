@@ -4,12 +4,136 @@
 
     
   <url>
+    <loc>https://lovexinforever.github.io/2017/11/14/Android-%E5%BC%80%E5%8F%91-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B7%91%E9%A9%AC%E7%81%AF-TextView/</loc>
+    <lastmod>2017-11-14T06:14:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android 开发 自定义跑马灯 TextView</title>
+        <pubTime>2017-11-14T06:09:16.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+        <tag>跑马灯</tag>
+         
+        <tag>自定义textview</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/"/>
+          
+             
+              <breadCrumb title="Android" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%BA%8C/</loc>
-    <lastmod>2017-11-07T03:06:43.000Z</lastmod>
+    <lastmod>2017-11-07T06:00:26.000Z</lastmod>
     <data>
         <display>
         <title>Hexo+NexT 博客搭建相册(二)</title>
         <pubTime>2017-09-18T06:10:24.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>NexT</tag>
+         
+        <tag>相册</tag>
+         
+        <tag>Photo</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="Hexo" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/09/27/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%92%8C%E9%80%89%E5%8F%96%E6%96%B9%E6%B3%95-%E4%BA%8C/</loc>
+    <lastmod>2017-11-07T05:59:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>jQuery选择器和选取方法(二)</title>
+        <pubTime>2017-09-27T06:17:23.000Z</pubTime>
+        
+        <tag>HTML5</tag>
+         
+        <tag>js</tag>
+         
+        <tag>JQuery</tag>
+         
+        <tag>选择器</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="HTML5" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/"/>
+          
+             
+              <breadCrumb title="JS" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/JS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/09/26/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%92%8C%E9%80%89%E5%8F%96%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2017-11-07T03:14:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>jQuery选择器和选取方法(一)</title>
+        <pubTime>2017-09-26T08:36:10.000Z</pubTime>
+        
+        <tag>HTML5</tag>
+         
+        <tag>js</tag>
+         
+        <tag>JQuery</tag>
+         
+        <tag>选择器</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="HTML5" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/"/>
+          
+             
+              <breadCrumb title="JS" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/JS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/</loc>
+    <lastmod>2017-11-07T03:13:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo+NexT 博客搭建相册(一)</title>
+        <pubTime>2017-09-18T02:40:02.000Z</pubTime>
         
         <tag>Hexo</tag>
          
@@ -58,7 +182,6 @@
 
     
     
-    
   <url>
     <loc>https://lovexinforever.github.io/2017/10/26/%E4%B8%83%E9%98%B6%E9%AD%94%E6%96%B9%E4%B8%AD%E5%BF%83%E5%9D%97%E5%90%88%E5%B9%B6%E5%85%AC%E5%BC%8F-%E5%90%AB%E4%BA%94%E9%98%B6%E9%AD%94%E6%96%B9/</loc>
     <lastmod>2017-10-26T07:54:58.000Z</lastmod>
@@ -82,99 +205,6 @@
           
              
               <breadCrumb title="魔方" url="https://lovexinforever.github.io/categories/%E5%A8%B1%E4%B9%90/%E9%AD%94%E6%96%B9/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/09/26/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%92%8C%E9%80%89%E5%8F%96%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2017-10-25T05:47:52.000Z</lastmod>
-    <data>
-        <display>
-        <title>jQuery选择器和选取方法(一)</title>
-        <pubTime>2017-09-26T08:36:10.000Z</pubTime>
-        
-        <tag>HTML5</tag>
-         
-        <tag>js</tag>
-         
-        <tag>JQuery</tag>
-         
-        <tag>选择器</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="HTML5" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/"/>
-          
-             
-              <breadCrumb title="JS" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/JS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/09/27/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%92%8C%E9%80%89%E5%8F%96%E6%96%B9%E6%B3%95-%E4%BA%8C/</loc>
-    <lastmod>2017-10-25T05:47:43.000Z</lastmod>
-    <data>
-        <display>
-        <title>jQuery选择器和选取方法(二)</title>
-        <pubTime>2017-09-27T06:17:23.000Z</pubTime>
-        
-        <tag>HTML5</tag>
-         
-        <tag>js</tag>
-         
-        <tag>JQuery</tag>
-         
-        <tag>选择器</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="HTML5" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/"/>
-          
-             
-              <breadCrumb title="JS" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/JS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/</loc>
-    <lastmod>2017-10-25T05:46:26.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo+NexT 博客搭建相册(一)</title>
-        <pubTime>2017-09-18T02:40:02.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>NexT</tag>
-         
-        <tag>相册</tag>
-         
-        <tag>Photo</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="Hexo" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Hexo/"/>
           
         </display>
     </data>
@@ -242,9 +272,9 @@
         <title>Android 获取当前网络连接类型</title>
         <pubTime>2017-09-22T01:49:14.000Z</pubTime>
         
-        <tag>wifi</tag>
-         
         <tag>android</tag>
+         
+        <tag>wifi</tag>
          
         <tag>安卓</tag>
          
@@ -473,28 +503,6 @@
     </url>
 
     
-  <url>
-    <loc>https://lovexinforever.github.io/2017/09/13/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/</loc>
-    <lastmod>2017-09-14T09:29:43.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo博客添加文章置顶功能</title>
-        <pubTime>2017-09-13T11:40:12.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>置顶</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
     
   <url>
     <loc>https://lovexinforever.github.io/2016/05/30/%E6%90%AC%E5%AE%B6/</loc>
@@ -527,6 +535,28 @@
            
              
               <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%97%A5%E5%BF%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/09/13/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/</loc>
+    <lastmod>2017-09-14T09:29:43.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo博客添加文章置顶功能</title>
+        <pubTime>2017-09-13T11:40:12.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>置顶</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
           
         </display>
     </data>
