@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[自定义view 之激活码验证码输入框]]></title>
+    <url>%2F2017%2F12%2F29%2F%E8%87%AA%E5%AE%9A%E4%B9%89view-%E4%B9%8B%E6%BF%80%E6%B4%BB%E7%A0%81%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BE%93%E5%85%A5%E6%A1%86%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>技术</category>
+        <category>日志</category>
+        <category>Android</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
+        <tag>激活码</tag>
+        <tag>验证码</tag>
+        <tag>自定义输入框</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Android 开发 自定义跑马灯 TextView]]></title>
     <url>%2F2017%2F11%2F14%2FAndroid-%E5%BC%80%E5%8F%91-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B7%91%E9%A9%AC%E7%81%AF-TextView%2F</url>
     <content type="text"><![CDATA[在项目开发中,有次需要用到跑马灯,使用了系统自带的跑马灯,发现会有点问题.然后就考虑重写了一个跑马灯 textview.主要思路是 自定义一个画笔工具,自己画出 textview 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126public class MarqueeTextView extends View &#123; private static String TAG = MarqueeTextView.class.getSimpleName(); private String mContent; private ValueAnimator mAnimator; private Paint mPaint; private int mOffset; private int mBaseLine; private Rect mTargetRect; private int mTextWidth = 0; public MarqueeTextView(Context context) &#123; super(context); init(); &#125; public MarqueeTextView(Context context, AttributeSet attrs) &#123; super(context, attrs); init(); &#125; public MarqueeTextView(Context context, AttributeSet attrs, int defStyleAttr) &#123; super(context, attrs, defStyleAttr); init(); &#125; private void init() &#123; mPaint = new Paint(); mPaint.setTextSize(getContext().getResources().getDimension(R.dimen.sp_15)); mPaint.setColor(Color.RED); mPaint.setTextAlign(Paint.Align.LEFT); mPaint.setAntiAlias(true); &#125; @Override protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) &#123; if (mContent == null) &#123; super.onMeasure(widthMeasureSpec,heightMeasureSpec); return; &#125; Paint.FontMetricsInt fontMetrics = mPaint.getFontMetricsInt(); int height = fontMetrics.bottom - fontMetrics.top + getPaddingBottom() + getPaddingTop(); setMeasuredDimension(widthMeasureSpec, MeasureSpec.makeMeasureSpec(height, MeasureSpec.EXACTLY)); int top = getPaddingTop(); int bottom = top + fontMetrics.bottom - fontMetrics.top; int left = getPaddingLeft() + mOffset; int right = left + mTextWidth; if (mTargetRect == null) &#123; mTargetRect = new Rect(); &#125; mTargetRect.set(left, top, right, bottom); mBaseLine = (mTargetRect.bottom + mTargetRect.top - fontMetrics.bottom - fontMetrics.top) / 2; mAnimator.cancel(); if (mTextWidth &gt; getMeasuredWidth()) &#123; mAnimator.start(); &#125; &#125; @Override protected void onWindowVisibilityChanged(int visibility) &#123; super.onWindowVisibilityChanged(visibility); if(visibility == View.VISIBLE)&#123; start(); &#125;else&#123; cancel(); &#125; &#125; @Override protected void onDraw(Canvas canvas) &#123; super.onDraw(canvas); if (mContent == null || mTargetRect == null) &#123; return; &#125; mTargetRect.left = getPaddingLeft() + mOffset; mTargetRect.right = mTargetRect.left + mTextWidth; canvas.drawText(mContent, mTargetRect.left, mBaseLine, mPaint); &#125; public void setText(String text) &#123; mContent = text; mTextWidth = (int) (mPaint.measureText(mContent, 0, mContent.length())+1); if(null == mAnimator)&#123; mAnimator = ValueAnimator.ofFloat(0, mTextWidth); mAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() &#123; @Override public void onAnimationUpdate(ValueAnimator valueAnimator) &#123; mOffset -= 2; if (mOffset &lt; -mTextWidth) &#123; mOffset = getWidth(); &#125; invalidate(); &#125; &#125;); mAnimator.setRepeatCount(ValueAnimator.INFINITE); mAnimator.setRepeatMode(ValueAnimator.REVERSE); //5.为ValueAnimator设置目标对象并开始执行动画 mAnimator.setTarget(this); mAnimator.setDuration((long) (mTextWidth)); &#125; &#125; public void start()&#123; if(null != mAnimator &amp;&amp; mTextWidth &gt; getMeasuredWidth())&#123; mAnimator.start(); &#125; &#125; public void cancel()&#123; if(null != mAnimator &amp;&amp; mTextWidth &gt; getMeasuredWidth())&#123; mAnimator.cancel(); &#125; &#125;&#125;]]></content>
