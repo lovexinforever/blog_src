@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Geektool 使用 python + beautiful 实现抓取天气图标]]></title>
+    <url>%2F2018%2F04%2F20%2FGeektool-%E4%BD%BF%E7%94%A8-python-beautiful-%E5%AE%9E%E7%8E%B0%E6%8A%93%E5%8F%96%E5%A4%A9%E6%B0%94%E5%9B%BE%E6%A0%87%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>技术</category>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>geektool</tag>
+        <tag>天气</tag>
+        <tag>beautifulsoup</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Geektool 使用 python+beautifulsoup 抓取天气显示]]></title>
     <url>%2F2018%2F04%2F19%2FGeektool-%E4%BD%BF%E7%94%A8-python-%E6%8A%93%E5%8F%96%E5%A4%A9%E6%B0%94%E6%98%BE%E7%A4%BA%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <content type="text"><![CDATA[闲来无事,就想着捣鼓捣鼓电脑,想在电脑桌面实时显示天气状况.就用 geektool + python + beautifulsoup 写了一个抓取天气网站的脚本来显示. 效果先看实现出来的效果 实现思路用 python 去爬取天气网站的内容,解析抓取到的内容,提取今日的温度信息和天气天气,然后显示在 geektool 上面 天气网站我这边选用的是 weather channel在网站里面把地址切换到你想抓取的地区.如图,可以看到实时温度现在1&lt;div class="today_nowcard-temp"&gt;&lt;span class=""&gt;25&lt;sup&gt;°&lt;/sup&gt;&lt;/span&gt;&lt;/div&gt; 所以我们只要抓取 class为 today_nowcard-temp的标签,获取标签下面的文本内容 就是我们想要的温度信息.同理天气状况 只要抓取1&lt;div class="today_nowcard-phrase"&gt;晴朗&lt;/div&gt; 的内容 准备开发使用 beautifulsoup 去抓取页面内容.所以我们需要安装.由于 geektool 使用python 的版本是 2.7.10的.所以我们要在 python2.7里面安装 beautifulsoup.安装命令1python -m pip install beautifulsoup4 然后查看有没有安装成功1python -m pip list 如果有显示 beautifulsoup4的包就是安装成功了.如果没有的话就没有安装成功. 如果你那么不幸运没有安装成功.就只能去 beautifulsoup download 去下载源码.然后切换到beautifulsoup的setup.py 的命令目录执行12python setup.py buildpython setup.py install 执行成功后在查看安装的包,就看到安装成功了. 执行脚本1234567891011121314#!/usr/bin/env python#-*- coding: UTF-8 -*- import sysreload(sys)sys.setdefaultencoding('utf-8')import urllibimport osfrom bs4 import BeautifulSoupimport reif __name__ == '__main__': resp=urllib.urlopen('https://weather.com/zh-CN/weather/today/l/5ef652409badc75c97292b401c6db8e8e55a3157f300dc0997bea96343e4a20a') soup=BeautifulSoup(resp,'html.parser') tagToday=soup.find('div',attrs=&#123;'class':'today_nowcard-temp'&#125;) print(tagToday.span.get_text()) 可以看到 geektool 输出温度信息了,然后在 geektool 里面修改样式就好了天气信息同理]]></content>
       <categories>
         <category>技术</category>
         <category>Python</category>
