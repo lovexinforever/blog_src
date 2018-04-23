@@ -18,7 +18,9 @@ essential: true
 
 开发思路
 ----------
-首先上篇文章已经爬取到天气状态如晴朗,局部多云等. 由于也是刚刚弄,并不知道天气状态到底对应几个.目前也只是遇到三种,后面遇到的话再加下逻辑.然后根据天气状态下载对应的天气图标到计算机本地目录,最后用 geektool 显示本地图片.
+首先上篇文章已经爬取到天气状态如晴朗,局部多云等. 由于也是刚刚弄,并不知道天气状态到底对应几个.<s>目前也只是遇到三种</s>,后面遇到的话再加下逻辑.然后根据天气状态下载对应的天气图标到计算机本地目录,最后用 geektool 显示本地图片.
+
+更新一下天气状态脚本
 
 脚本
 ----------
@@ -43,11 +45,19 @@ if __name__ == '__main__':
 		url='https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/20101027235020501.png'
 	elif "大部多云" == tagToday.get_text():
 		url='https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/20101027235019364.png'
+	elif "小雨" == tagToday.get_text():
+		url='https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/20101027235021677.png'
+	elif "多云" == tagToday.get_text():
+		url="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/20101027235021422.png"
+	elif "雨" == tagToday.get_text():
+		url="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/20101027235021502.png"
 	else:
 		url='https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/20101027235020136.png'
 	urllib.urlretrieve(url, '/tmp/weather.png')
 	print(tagToday.get_text())
 ```
-url 对应相应状态的 天气图标地址.目前我只遇到过这三种,后面遇到其他的再添加对应的状态.
+<s>url 对应相应状态的 天气图标地址.目前我只遇到过这三种,后面遇到其他的再添加对应的状态.</s>
+更新一下天气状态.
+
 
 相应的天气图标可以在我的 github 上面下载. <a href="https://github.com/lovexinforever/blog_back_up/tree/master/blog_photos">天气图标</a>
