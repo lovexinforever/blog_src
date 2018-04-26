@@ -19,5 +19,4 @@
       {{ totalcount(site, '0,0.0a') }}
     </span>
   {% endif %}
-  <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
 </div>
