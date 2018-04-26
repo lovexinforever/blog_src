@@ -548,6 +548,11 @@ tabs:
     labels: true
   border_radius: 0
 
+# Online contact 
+daovoice: true
+daovoice_app_id: 22d64a6f
+
+
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
