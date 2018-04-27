@@ -12,7 +12,7 @@ categories:
 top: 7
 essential: true
 ---
-<img src="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/WechatIMG1.jpeg" class="full-image"/>
+<img src="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/WechatIMG1.jpeg"/>
 上篇文章 <a href="https://lovexinforever.github.io/2018/04/19/Geektool-%E4%BD%BF%E7%94%A8-python-%E6%8A%93%E5%8F%96%E5%A4%A9%E6%B0%94%E6%98%BE%E7%A4%BA/">Geektool 使用 python+beautifulsoup 抓取天气显示</a> 讲解了怎样爬取天气网站的天气.但是界面上显示宗师感觉不好看,想显示天气的图标,翻看了几个天气网站,并没有我满意的天气图标.于是就打算自己去做一个了.
 <!--more-->
 

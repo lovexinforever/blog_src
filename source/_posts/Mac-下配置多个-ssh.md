@@ -9,7 +9,7 @@ categories:
 - 技术
 essential: true
 ---
-<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505216036950&di=c1bfa3cd3158568e4ebaa0280b5cacf8&imgtype=0&src=http%3A%2F%2Fimg.hb.aicdn.com%2Fc70036ee95575d39ee6131a9757e19cb9a569c9f20f39-KFwh21_fw580" class="full-image" />
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505216036950&di=c1bfa3cd3158568e4ebaa0280b5cacf8&imgtype=0&src=http%3A%2F%2Fimg.hb.aicdn.com%2Fc70036ee95575d39ee6131a9757e19cb9a569c9f20f39-KFwh21_fw580" />
 
 <blockquote class="blockquote-center"><h2>人的一切痛苦，本质上都是对自己无能的愤怒</h2></br>总有刁民想害朕</blockquote>
 

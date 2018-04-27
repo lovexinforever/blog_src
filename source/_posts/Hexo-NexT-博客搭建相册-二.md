@@ -12,7 +12,7 @@ categories:
 top: 4
 essential: true
 ---
-<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505726176244&di=4cfcaa9b699b336d366ff823c5625f32&imgtype=0&src=http%3A%2F%2Fimg10.3lian.com%2Fsc6%2Fshow%2F08%2F19%2F20110510230141386.jpg" class="full-image" />
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505726176244&di=4cfcaa9b699b336d366ff823c5625f32&imgtype=0&src=http%3A%2F%2Fimg10.3lian.com%2Fsc6%2Fshow%2F08%2F19%2F20110510230141386.jpg" />
 
 上一篇文章 <a href="https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/">Hexo+NexT 博客搭建相册(一)</a> 讲解了怎样用 github 来创建相册库.现在来讲解怎样在 hexo 中使用相册库.
 <!-- more-->

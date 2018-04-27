@@ -12,7 +12,7 @@ categories:
 top: 7
 essential: true
 ---
-<img src="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/photos/2018-4-19_%E6%B1%BD%E8%BD%A6.jpeg" class="full-image" />
+<img src="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/photos/2018-4-19_%E6%B1%BD%E8%BD%A6.jpeg" />
 闲来无事,就想着捣鼓捣鼓电脑,想在电脑桌面实时显示天气状况.就用 geektool + python + beautifulsoup 写了一个抓取天气网站的脚本来显示.
 <!--more-->
 

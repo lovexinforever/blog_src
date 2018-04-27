@@ -12,7 +12,7 @@ tags:
 categories:
 - 技术
 ---
-<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505296567323&di=32e77172fa0656b500322d1f88a02925&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D4c3b2306ba51f819e5280b09b2dd2098%2F8718367adab44aed5b5a1bc9b91c8701a18bfb83.jpg" class="full-image" />
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505296567323&di=32e77172fa0656b500322d1f88a02925&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D4c3b2306ba51f819e5280b09b2dd2098%2F8718367adab44aed5b5a1bc9b91c8701a18bfb83.jpg"/>
 
 <blockquote class="blockquote-center"><h2>人生并不像火车要通过每个站似的经过每一个生活阶段。人生总是直向前行走，从不留下什么。</h2></br>—— 刘易斯</blockquote>
 <!--more-->
