@@ -113,7 +113,7 @@
 <meta property="og:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505296567323&di=32e77172fa0656b500322d1f88a02925&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D4c3b2306ba51f819e5280b09b2dd2098%2F8718367adab44aed5b5a1bc9b91c8701a18bfb83.jpg">
 <meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170913-152205@2x.png">
 <meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170913-152503@2x.png">
-<meta property="og:updated_time" content="2017-09-19T04:42:17.000Z">
+<meta property="og:updated_time" content="2018-05-02T05:55:01.747Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo的版本控制与持续集成">
 <meta name="twitter:description" content="人生并不像火车要通过每个站似的经过每一个生活阶段。人生总是直向前行走，从不留下什么。—— 刘易斯">
@@ -392,8 +392,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-09-19T12:42:17+08:00">
-                2017-09-19
+              <time title="更新于" itemprop="dateModified" datetime="2018-05-02T13:55:01+08:00">
+                2018-05-02
               </time>
             
           </span>
@@ -497,7 +497,7 @@
       
 
       
-        <p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505296567323&di=32e77172fa0656b500322d1f88a02925&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D4c3b2306ba51f819e5280b09b2dd2098%2F8718367adab44aed5b5a1bc9b91c8701a18bfb83.jpg" class="full-image"></p>
+        <p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505296567323&di=32e77172fa0656b500322d1f88a02925&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D4c3b2306ba51f819e5280b09b2dd2098%2F8718367adab44aed5b5a1bc9b91c8701a18bfb83.jpg"></p>
 <p><blockquote class="blockquote-center"><h2>人生并不像火车要通过每个站似的经过每一个生活阶段。人生总是直向前行走，从不留下什么。</h2><br>—— 刘易斯</blockquote><br><a id="more"></a><br>想必很多人会把Hexo生成出来的静态网站放到GitHub Pages来进行托管。一般发布Hexo博客的流程是，首先在本地搭建Hexo的环境，编写新文章，然后利用<code>hexo deploy</code>来发布到Git。那么对于本地的Hexo的原始文件怎么管理呢？如果换电脑了怎么办？如果没有对原始文件进行备份，突然有一天你的本地环境挂了导致源文件丢失，那不就呵呵了。也许你会想到用Dropbox或者其他方案来对源文件进行备份，但是每次更新完博客，需要备份好源文件，然后执行<code>hexo deploy</code>进行发布，是不是很麻烦？换了电脑之后又要重新搭建本地环境，是不是很蛋疼？<br>那么接下来我们就来说说如何优雅愉快地对我们的Hexo进行版本管理和发布。<br>既然我们已经用了GitHub来托管我们生成出来的静态网站，那么为什么不也把Hexo博客的源文件也host在GitHub上呢。那么问题来了，如果我们把Hexo博客的源文件托管在GitHub上，我们的发布流程就会变为：</p>
 <ul>
 <li>执行<code>git push</code>把更新的源文件push到托管源文件的GitHub Repo (我们称之为Source Repo)</li>
