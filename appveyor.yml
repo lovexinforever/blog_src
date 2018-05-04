@@ -24,6 +24,7 @@ install:
   - npm --version
   - npm install
   - npm install hexo-cli -g
+  - npm install hexo -save
   - npm install hexo-wordcount@2 --save
   - npm install hexo-generator-sitemap --save
   - npm install hexo-generator-baidu-sitemap --save
