@@ -110,7 +110,7 @@
 <meta property="og:site_name" content="总有刁民想害朕~">
 <meta property="og:description" content="之前文章中介绍了怎样用 hexo + next 生成相册.由于相册图片命名方式为 yyyy-MM-dd_des.jpg 形式,导致在取9月和10月的时候,会发生顺序上的错误.这是由于10的排序比9的排序靠前.所以就想到了用冒泡排序来解决这个问题">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-26T08:24:46.729Z">
+<meta property="og:updated_time" content="2018-05-02T05:55:01.749Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python-冒泡排序">
 <meta name="twitter:description" content="之前文章中介绍了怎样用 hexo + next 生成相册.由于相册图片命名方式为 yyyy-MM-dd_des.jpg 形式,导致在取9月和10月的时候,会发生顺序上的错误.这是由于10的排序比9的排序靠前.所以就想到了用冒泡排序来解决这个问题">
@@ -388,8 +388,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-04-26T16:24:46+08:00">
-                2018-04-26
+              <time title="更新于" itemprop="dateModified" datetime="2018-05-02T13:55:01+08:00">
+                2018-05-02
               </time>
             
           </span>
@@ -449,7 +449,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  577
+                  600
                 </span>
               
 
@@ -465,7 +465,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  3
                 </span>
               
             </div>
@@ -523,9 +523,9 @@
 </ul>
 <p>比较完成</p>
 <h2 id="冒泡排序原理"><a href="#冒泡排序原理" class="headerlink" title="冒泡排序原理"></a>冒泡排序原理</h2><p>每一趟只能将一个数归位, 如果有n个数进行排序,只需将n-1个数归位, 也就是说要进行n-1趟操作(已经归位的数不用再比较)</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin/env python</span></div><div class="line"><span class="comment"># coding:utf-8</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">bubbleSort</span><span class="params">(nums)</span>:</span></div><div class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(nums)<span class="number">-1</span>):    <span class="comment"># 这个循环负责设置冒泡排序进行的次数</span></div><div class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> range(len(nums)-i<span class="number">-1</span>):  <span class="comment"># ｊ为列表下标</span></div><div class="line">            <span class="keyword">if</span> nums[j] &gt; nums[j+<span class="number">1</span>]:</div><div class="line">                nums[j], nums[j+<span class="number">1</span>] = nums[j+<span class="number">1</span>], nums[j]</div><div class="line">    <span class="keyword">return</span> nums</div><div class="line"></div><div class="line">nums = [<span class="number">5</span>,<span class="number">2</span>,<span class="number">45</span>,<span class="number">6</span>,<span class="number">8</span>,<span class="number">2</span>,<span class="number">1</span>]</div><div class="line"></div><div class="line"><span class="keyword">print</span> bubbleSort(nums)</div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br><span class="line"><span class="comment"># coding:utf-8</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">bubbleSort</span><span class="params">(nums)</span>:</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(nums)<span class="number">-1</span>):    <span class="comment"># 这个循环负责设置冒泡排序进行的次数</span></span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> range(len(nums)-i<span class="number">-1</span>):  <span class="comment"># ｊ为列表下标</span></span><br><span class="line">            <span class="keyword">if</span> nums[j] &gt; nums[j+<span class="number">1</span>]:</span><br><span class="line">                nums[j], nums[j+<span class="number">1</span>] = nums[j+<span class="number">1</span>], nums[j]</span><br><span class="line">    <span class="keyword">return</span> nums</span><br><span class="line"></span><br><span class="line">nums = [<span class="number">5</span>,<span class="number">2</span>,<span class="number">45</span>,<span class="number">6</span>,<span class="number">8</span>,<span class="number">2</span>,<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> bubbleSort(nums)</span><br></pre></td></tr></table></figure>
 <h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p>冒泡排序解决了桶排序浪费空间的问题, 但是冒泡排序的效率特别低</p>
-<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>打开 tool.py,添加冒泡排序方法<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">def bubble(bubbleList):</div><div class="line">    listLength = <span class="built_in">len</span>(bubbleList)</div><div class="line">    <span class="keyword">while</span> listLength &gt; <span class="number">0</span>:</div><div class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> range(listLength - <span class="number">1</span>):    <span class="comment"># 这个循环负责设置冒泡排序进行的次数</span></div><div class="line">            <span class="keyword">for</span> j <span class="keyword">in</span> range(listLength-i<span class="number">-1</span>):  <span class="comment"># ｊ为列表下标</span></div><div class="line">                <span class="keyword">if</span>(bubbleList[j].<span class="built_in">get</span>(<span class="string">'arr'</span>).<span class="built_in">get</span>(<span class="string">'year'</span>) == bubbleList[j+<span class="number">1</span>].<span class="built_in">get</span>(<span class="string">'arr'</span>).<span class="built_in">get</span>(<span class="string">'year'</span>)):</div><div class="line">                    <span class="keyword">if</span> bubbleList[j].<span class="built_in">get</span>(<span class="string">'arr'</span>).<span class="built_in">get</span>(<span class="string">'month'</span>) &lt; bubbleList[j+<span class="number">1</span>].<span class="built_in">get</span>(<span class="string">'arr'</span>).<span class="built_in">get</span>(<span class="string">'month'</span>):</div><div class="line">                </div><div class="line">                        bubbleList[j], bubbleList[j+<span class="number">1</span>] = bubbleList[j+<span class="number">1</span>], bubbleList[j]</div><div class="line">        <span class="literal">return</span> bubbleList</div></pre></td></tr></table></figure></p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>打开 tool.py,添加冒泡排序方法<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">def bubble(bubbleList):</span><br><span class="line">    listLength = <span class="built_in">len</span>(bubbleList)</span><br><span class="line">    <span class="keyword">while</span> listLength &gt; <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> range(listLength - <span class="number">1</span>):    <span class="comment"># 这个循环负责设置冒泡排序进行的次数</span></span><br><span class="line">            <span class="keyword">for</span> j <span class="keyword">in</span> range(listLength-i<span class="number">-1</span>):  <span class="comment"># ｊ为列表下标</span></span><br><span class="line">                <span class="keyword">if</span>(bubbleList[j].<span class="built_in">get</span>(<span class="string">'arr'</span>).<span class="built_in">get</span>(<span class="string">'year'</span>) == bubbleList[j+<span class="number">1</span>].<span class="built_in">get</span>(<span class="string">'arr'</span>).<span class="built_in">get</span>(<span class="string">'year'</span>)):</span><br><span class="line">                    <span class="keyword">if</span> bubbleList[j].<span class="built_in">get</span>(<span class="string">'arr'</span>).<span class="built_in">get</span>(<span class="string">'month'</span>) &lt; bubbleList[j+<span class="number">1</span>].<span class="built_in">get</span>(<span class="string">'arr'</span>).<span class="built_in">get</span>(<span class="string">'month'</span>):</span><br><span class="line">                </span><br><span class="line">                        bubbleList[j], bubbleList[j+<span class="number">1</span>] = bubbleList[j+<span class="number">1</span>], bubbleList[j]</span><br><span class="line">        <span class="literal">return</span> bubbleList</span><br></pre></td></tr></table></figure></p>
 <p>在 <code>handle_photo</code> 中引用 <code>bubble</code><br>在 <code>list_info.reverse()  # 翻转</code> 下面添加 <code>bubble(list_info)</code></p>
 <p>到此就完成了 10月排在9月前面的工作.</p>
 
@@ -751,7 +751,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">26</span>
+                <span class="site-state-item-count">27</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -884,7 +884,7 @@
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
     <span title="Site words total count">
-      15.6k
+      17.1k
     </span>
   
 </div>

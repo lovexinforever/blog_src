@@ -128,7 +128,7 @@
 <meta property="og:image" content="https://lovexinforever.github.io/images/include_post.png">
 <meta property="og:image" content="https://lovexinforever.github.io/images/include_assets.png">
 <meta property="og:image" content="https://lovexinforever.github.io/images/raw.png">
-<meta property="og:updated_time" content="2017-09-18T06:02:58.000Z">
+<meta property="og:updated_time" content="2018-05-02T05:55:01.748Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo 创建文章 demo">
 <meta name="twitter:description" content="千里之行,始于足下总有刁民想害朕  关于hexo 发布文章的一些标签的用法这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。">
@@ -407,8 +407,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-09-18T14:02:58+08:00">
-                2017-09-18
+              <time title="更新于" itemprop="dateModified" datetime="2018-05-02T13:55:01+08:00">
+                2018-05-02
               </time>
             
           </span>
@@ -468,7 +468,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,157
+                  1,169
                 </span>
               
 
@@ -514,7 +514,11 @@
         <blockquote class="blockquote-center"><h2>千里之行,始于足下</h2><br>总有刁民想害朕</blockquote>
 
 <h1 id="关于hexo-发布文章的一些标签的用法"><a href="#关于hexo-发布文章的一些标签的用法" class="headerlink" title="关于hexo 发布文章的一些标签的用法"></a>关于hexo 发布文章的一些标签的用法</h1><h3 id="这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。"><a href="#这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。" class="headerlink" title="这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。"></a>这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。</h3><a id="more"></a>
-<h2 id="1-写作"><a href="#1-写作" class="headerlink" title="1. 写作"></a>1. 写作</h2><p>写作之前当然得先创建一个.md文件，使用命令<font color="#f00"><code>hexo new [layout] &lt;title&gt;</code></font>，其中layout默认为post，前面提过。</p>
+<ol>
+<li>写作</li>
+</ol>
+<hr>
+<p>写作之前当然得先创建一个.md文件，使用命令<font color="#f00"><code>hexo new [layout] &lt;title&gt;</code></font>，其中layout默认为post，前面提过。</p>
 <p>（1）Layout布局</p>
 <p>Hexo提供了3种默认的布局，<font color="#f00"><code>post</code></font>、<font color="#f00"><code>page</code></font>和<font color="#f00"><code>draft</code></font>，路径分别为：<font color="#f00"><code>source/_posts</code></font>、<font color="#f00"><code>source</code></font>、<font color="#f00"><code>source/_draft</code></font>。如果你将在文章前置申明中，将layout设置为false，那么这篇文章将不会有任何的布局。</p>
 <p>（2）Filename文件名</p>
@@ -533,10 +537,14 @@
 <p>（4）Scaffolds模版</p>
 <p>当你使用<font color="#f00"><code>new</code></font>命令创建一篇文章的时候，Hexo会根据scaffolds目录中的模版帮你生成文章。假如执行<font color="#f00"><code>hexo new photo &quot;My Gallery&quot;</code></font>，Hexo会尝试在scaffolds目录中去寻找photo.md的模版文件，然后基于它创建标题为My Gallery的文章。</p>
 <p>它的用处就是能够在模版中写入你某一类文章都要添加的共同内容，这样你基于模版创建文章的时候，就不用再重复写入那部分内容。</p>
-<h2 id="2-前置声明"><a href="#2-前置声明" class="headerlink" title="2. 前置声明"></a>2. 前置声明</h2><p>顾名思义，就是写在文章前面的一块内容，为了对文章进行某些设置。它有两种书写方式：</p>
+<ol start="2">
+<li>前置声明</li>
+</ol>
+<hr>
+<p>顾名思义，就是写在文章前面的一块内容，为了对文章进行某些设置。它有两种书写方式：</p>
 <ol>
-<li>YAML方式，以三短线结束<figure class="highlight yaml"><figcaption><span>YAML</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">title:</span> <span class="string">Hello</span> <span class="string">World</span></div><div class="line"><span class="attr">date:</span> <span class="number">2015</span><span class="string">/12/23</span> <span class="number">20</span><span class="string">:46:25</span></div><div class="line"><span class="meta">---</span></div></pre></td></tr></table></figure></li>
-<li>JSON方式，以三分号结束<figure class="highlight"><figcaption><span>JSON</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">"title": "Hello World",</div><div class="line">"date": "2013/7/13 20:46:25"</div><div class="line">;;;</div></pre></td></tr></table></figure>
+<li>YAML方式，以三短线结束<figure class="highlight yaml"><figcaption><span>YAML</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">Hello</span> <span class="string">World</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2015</span><span class="string">/12/23</span> <span class="number">20</span><span class="string">:46:25</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure></li>
+<li>JSON方式，以三分号结束<figure class="highlight"><figcaption><span>JSON</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">"title": "Hello World",</span><br><span class="line">"date": "2013/7/13 20:46:25"</span><br><span class="line">;;;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <p>下面看看有哪些参数可以设定：</p>
@@ -550,8 +558,12 @@
 <li><font color="#f00"><code>categories</code></font> 文章分类</li>
 <li><font color="#f00"><code>permalink</code></font> 文章永久链接，一般不用写，默认就行<br>在写标签和分类的时候，可能会有多个的情况，多个标签可以无序排列的方式书写，而分类可能会有多级分类的情况。如何书写举例如下：</li>
 </ul>
-<figure class="highlight yaml"><figcaption><span>YAML</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="attr">categories:</span> </div><div class="line"><span class="bullet">-</span> <span class="string">Sports</span></div><div class="line"><span class="bullet">-</span> <span class="string">Baseball</span></div><div class="line"><span class="attr">tags:</span></div><div class="line"><span class="bullet">-</span> <span class="string">Injury</span></div><div class="line"><span class="bullet">-</span> <span class="string">Fight</span></div><div class="line"><span class="bullet">-</span> <span class="string">Shocking</span></div></pre></td></tr></table></figure>
-<h2 id="3-标签插件"><a href="#3-标签插件" class="headerlink" title="3. 标签插件"></a>3. 标签插件</h2><p>这里说的标签插件不同于文章中的标签，它可以帮助你在文章中快速嵌入一些特殊的内容。</p>
+<figure class="highlight yaml"><figcaption><span>YAML</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">categories:</span> </span><br><span class="line"><span class="bullet">-</span> <span class="string">Sports</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Baseball</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Injury</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Fight</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">Shocking</span></span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>标签插件</li>
+</ol>
+<hr>
+<p>这里说的标签插件不同于文章中的标签，它可以帮助你在文章中快速嵌入一些特殊的内容。</p>
 <p>（1）Block Quote-块引用</p>
 <p>插入带有作者信息的应用，体现在Html上就是在<font color="#f00"><code>blockquote</code></font>标签下加入了<font color="#f00"><code>footer</code></font>标签。但是会给文章带来不一样的显示效果，书写格式非常简单。</p>
 <img src="/images/blockquote.png">
@@ -787,7 +799,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">26</span>
+                <span class="site-state-item-count">27</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -882,7 +894,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">千里之行,始于足下</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#关于hexo-发布文章的一些标签的用法"><span class="nav-number"></span> <span class="nav-text">关于hexo 发布文章的一些标签的用法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。"><span class="nav-number">0.1.</span> <span class="nav-text">这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-写作"><span class="nav-number">1.</span> <span class="nav-text">1. 写作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-前置声明"><span class="nav-number">2.</span> <span class="nav-text">2. 前置声明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-标签插件"><span class="nav-number">3.</span> <span class="nav-text">3. 标签插件</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">千里之行,始于足下</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#关于hexo-发布文章的一些标签的用法"><span class="nav-number"></span> <span class="nav-text">关于hexo 发布文章的一些标签的用法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。"><span class="nav-number">0.1.</span> <span class="nav-text">这部分Docs分了8块内容，分别从写作、前置声明、标签插件、资源目录、数据文件、服务器、生成器、部署。也许翻译得不得当，但是我尽量把主要内容呈现出来并加上自己的理解。</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -920,7 +932,7 @@
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
     <span title="Site words total count">
-      15.6k
+      17.1k
     </span>
   
 </div>
