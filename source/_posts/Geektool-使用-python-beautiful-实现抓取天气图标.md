@@ -9,7 +9,6 @@ tags:
 categories:
 - 技术
 - Python
-top: 7
 essential: true
 ---
 <img src="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/WechatIMG1.jpeg"/>

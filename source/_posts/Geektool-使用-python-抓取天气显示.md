@@ -9,7 +9,6 @@ tags:
 categories:
 - 技术
 - Python
-top: 7
 essential: true
 ---
 <img src="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/photos/2018-4-19_%E6%B1%BD%E8%BD%A6.jpeg" />
