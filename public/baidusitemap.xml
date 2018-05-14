@@ -3,9 +3,11 @@
 
 
     
+    
+    
   <url>
     <loc>https://lovexinforever.github.io/2018/05/08/%E7%83%AD%E4%BF%AE%E5%A4%8D%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3/</loc>
-    <lastmod>2018-05-08T04:51:28.025Z</lastmod>
+    <lastmod>2018-05-08T05:52:31.949Z</lastmod>
     <data>
         <display>
         <title>热修复方案设计文档</title>
@@ -24,6 +26,95 @@
     </url>
 
     
+  <url>
+    <loc>https://lovexinforever.github.io/2018/04/20/Geektool-%E4%BD%BF%E7%94%A8-python-beautiful-%E5%AE%9E%E7%8E%B0%E6%8A%93%E5%8F%96%E5%A4%A9%E6%B0%94%E5%9B%BE%E6%A0%87/</loc>
+    <lastmod>2018-05-08T05:05:12.254Z</lastmod>
+    <data>
+        <display>
+        <title>Geektool 使用 python + beautiful 实现抓取天气图标</title>
+        <pubTime>2018-04-20T07:36:36.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>geektool</tag>
+         
+        <tag>天气</tag>
+         
+        <tag>beautifulsoup</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2018/04/19/Geektool-%E4%BD%BF%E7%94%A8-python-%E6%8A%93%E5%8F%96%E5%A4%A9%E6%B0%94%E6%98%BE%E7%A4%BA/</loc>
+    <lastmod>2018-05-08T05:05:06.450Z</lastmod>
+    <data>
+        <display>
+        <title>Geektool 使用 python+beautifulsoup 抓取天气显示</title>
+        <pubTime>2018-04-19T11:14:32.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>geektool</tag>
+         
+        <tag>天气</tag>
+         
+        <tag>beautifulsoup</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/12/29/%E8%87%AA%E5%AE%9A%E4%B9%89view-%E4%B9%8B%E6%BF%80%E6%B4%BB%E7%A0%81%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BE%93%E5%85%A5%E6%A1%86/</loc>
+    <lastmod>2018-05-08T05:04:28.624Z</lastmod>
+    <data>
+        <display>
+        <title>自定义view 之激活码验证码输入框</title>
+        <pubTime>2017-12-29T02:10:31.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+        <tag>激活码</tag>
+         
+        <tag>验证码</tag>
+         
+        <tag>自定义输入框</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/"/>
+          
+             
+              <breadCrumb title="Android" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>https://lovexinforever.github.io/2018/05/07/appveyor-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA-hexo-%E5%8D%9A%E5%AE%A2%E5%A4%B1%E8%B4%A5/</loc>
@@ -55,39 +146,6 @@
     
     
     
-    
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/12/29/%E8%87%AA%E5%AE%9A%E4%B9%89view-%E4%B9%8B%E6%BF%80%E6%B4%BB%E7%A0%81%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BE%93%E5%85%A5%E6%A1%86/</loc>
-    <lastmod>2018-05-02T05:55:01.751Z</lastmod>
-    <data>
-        <display>
-        <title>自定义view 之激活码验证码输入框</title>
-        <pubTime>2017-12-29T02:10:31.000Z</pubTime>
-        
-        <tag>android</tag>
-         
-        <tag>激活码</tag>
-         
-        <tag>验证码</tag>
-         
-        <tag>自定义输入框</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/"/>
-          
-             
-              <breadCrumb title="Android" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
     
     
@@ -202,20 +260,18 @@
 
     
   <url>
-    <loc>https://lovexinforever.github.io/2017/09/27/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%92%8C%E9%80%89%E5%8F%96%E6%96%B9%E6%B3%95-%E4%BA%8C/</loc>
+    <loc>https://lovexinforever.github.io/2017/10/16/python-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/</loc>
     <lastmod>2018-05-02T05:55:01.749Z</lastmod>
     <data>
         <display>
-        <title>jQuery选择器和选取方法(二)</title>
-        <pubTime>2017-09-27T06:17:23.000Z</pubTime>
+        <title>python-冒泡排序</title>
+        <pubTime>2017-10-16T07:04:38.000Z</pubTime>
         
-        <tag>HTML5</tag>
+        <tag>python</tag>
          
-        <tag>js</tag>
+        <tag>排序</tag>
          
-        <tag>JQuery</tag>
-         
-        <tag>选择器</tag>
+        <tag>冒泡排序</tag>
          
          
            
@@ -223,10 +279,7 @@
               <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
           
              
-              <breadCrumb title="HTML5" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/"/>
-          
-             
-              <breadCrumb title="JS" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/JS/"/>
+              <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Python/"/>
           
         </display>
     </data>
@@ -266,18 +319,20 @@
 
     
   <url>
-    <loc>https://lovexinforever.github.io/2017/10/16/python-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/</loc>
+    <loc>https://lovexinforever.github.io/2017/09/27/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%92%8C%E9%80%89%E5%8F%96%E6%96%B9%E6%B3%95-%E4%BA%8C/</loc>
     <lastmod>2018-05-02T05:55:01.749Z</lastmod>
     <data>
         <display>
-        <title>python-冒泡排序</title>
-        <pubTime>2017-10-16T07:04:38.000Z</pubTime>
+        <title>jQuery选择器和选取方法(二)</title>
+        <pubTime>2017-09-27T06:17:23.000Z</pubTime>
         
-        <tag>python</tag>
+        <tag>HTML5</tag>
          
-        <tag>排序</tag>
+        <tag>js</tag>
          
-        <tag>冒泡排序</tag>
+        <tag>JQuery</tag>
+         
+        <tag>选择器</tag>
          
          
            
@@ -285,7 +340,10 @@
               <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
           
              
-              <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Python/"/>
+              <breadCrumb title="HTML5" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/"/>
+          
+             
+              <breadCrumb title="JS" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/JS/"/>
           
         </display>
     </data>
@@ -368,16 +426,22 @@
 
     
   <url>
-    <loc>https://lovexinforever.github.io/2017/09/13/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/</loc>
+    <loc>https://lovexinforever.github.io/2017/09/13/Hexo%E7%9A%84%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</loc>
     <lastmod>2018-05-02T05:55:01.747Z</lastmod>
     <data>
         <display>
-        <title>Hexo博客添加文章置顶功能</title>
-        <pubTime>2017-09-13T11:40:12.000Z</pubTime>
+        <title>Hexo的版本控制与持续集成</title>
+        <pubTime>2017-09-13T05:35:06.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>持续集成</tag>
          
-        <tag>置顶</tag>
+        <tag>版本管理</tag>
+         
+        <tag>CI</tag>
+         
+        <tag>AppVeyor</tag>
+         
+        <tag>git</tag>
          
          
            
@@ -415,22 +479,16 @@
 
     
   <url>
-    <loc>https://lovexinforever.github.io/2017/09/13/Hexo%E7%9A%84%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</loc>
+    <loc>https://lovexinforever.github.io/2017/09/13/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD/</loc>
     <lastmod>2018-05-02T05:55:01.747Z</lastmod>
     <data>
         <display>
-        <title>Hexo的版本控制与持续集成</title>
-        <pubTime>2017-09-13T05:35:06.000Z</pubTime>
+        <title>Hexo博客添加文章置顶功能</title>
+        <pubTime>2017-09-13T11:40:12.000Z</pubTime>
         
-        <tag>持续集成</tag>
+        <tag>hexo</tag>
          
-        <tag>版本管理</tag>
-         
-        <tag>CI</tag>
-         
-        <tag>AppVeyor</tag>
-         
-        <tag>git</tag>
+        <tag>置顶</tag>
          
          
            
@@ -530,20 +588,18 @@
 
     
   <url>
-    <loc>https://lovexinforever.github.io/2018/04/19/Geektool-%E4%BD%BF%E7%94%A8-python-%E6%8A%93%E5%8F%96%E5%A4%A9%E6%B0%94%E6%98%BE%E7%A4%BA/</loc>
-    <lastmod>2018-05-02T05:55:01.746Z</lastmod>
+    <loc>https://lovexinforever.github.io/2017/11/14/Android-%E5%BC%80%E5%8F%91-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B7%91%E9%A9%AC%E7%81%AF-TextView/</loc>
+    <lastmod>2018-05-02T05:55:01.745Z</lastmod>
     <data>
         <display>
-        <title>Geektool 使用 python+beautifulsoup 抓取天气显示</title>
-        <pubTime>2018-04-19T11:14:32.000Z</pubTime>
+        <title>Android 开发 自定义跑马灯 TextView</title>
+        <pubTime>2017-11-14T06:09:16.000Z</pubTime>
         
-        <tag>python</tag>
+        <tag>android</tag>
          
-        <tag>geektool</tag>
+        <tag>跑马灯</tag>
          
-        <tag>天气</tag>
-         
-        <tag>beautifulsoup</tag>
+        <tag>自定义textview</tag>
          
          
            
@@ -551,7 +607,10 @@
               <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
           
              
-              <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Python/"/>
+              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/"/>
+          
+             
+              <breadCrumb title="Android" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/Android/"/>
           
         </display>
     </data>
@@ -573,36 +632,6 @@
         <tag>安卓</tag>
          
         <tag>网络</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/"/>
-          
-             
-              <breadCrumb title="Android" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/11/14/Android-%E5%BC%80%E5%8F%91-%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B7%91%E9%A9%AC%E7%81%AF-TextView/</loc>
-    <lastmod>2018-05-02T05:55:01.745Z</lastmod>
-    <data>
-        <display>
-        <title>Android 开发 自定义跑马灯 TextView</title>
-        <pubTime>2017-11-14T06:09:16.000Z</pubTime>
-        
-        <tag>android</tag>
-         
-        <tag>跑马灯</tag>
-         
-        <tag>自定义textview</tag>
          
          
            
@@ -646,35 +675,6 @@
           
              
               <breadCrumb title="CSS3" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/HTML5/CSS3/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2018/04/20/Geektool-%E4%BD%BF%E7%94%A8-python-beautiful-%E5%AE%9E%E7%8E%B0%E6%8A%93%E5%8F%96%E5%A4%A9%E6%B0%94%E5%9B%BE%E6%A0%87/</loc>
-    <lastmod>2018-05-02T05:55:01.745Z</lastmod>
-    <data>
-        <display>
-        <title>Geektool 使用 python + beautiful 实现抓取天气图标</title>
-        <pubTime>2018-04-20T07:36:36.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-        <tag>geektool</tag>
-         
-        <tag>天气</tag>
-         
-        <tag>beautifulsoup</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Python/"/>
           
         </display>
     </data>
