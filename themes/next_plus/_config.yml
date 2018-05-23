@@ -488,6 +488,7 @@ calendar:
   orderBy: startTime
   offsetMax: 100000
   offsetMin: 100000
+  showLocation: true
   timeZone:
   showDeleted: false
   singleEvents: true
