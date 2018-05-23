@@ -486,8 +486,8 @@ calendar:
   calendar_id: a514387454@gmail.com
   api_key: AIzaSyDzO0TI-QFiEBjwON9-3arMnxXpRNSzNn4
   orderBy: startTime
-  offsetMax: 24
-  offsetMin: 4
+  offsetMax: 100000
+  offsetMin: 100000
   timeZone:
   showDeleted: false
   singleEvents: true
