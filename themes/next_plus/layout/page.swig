@@ -46,6 +46,13 @@
               {{ list_categories() }}
             </div>
           </div>
+          {% elif page.type === 'schedule' %}
+         <div class="post-block schedule">
+            <div id="schedule">
+              <ul id="event-list">
+              </ul>
+            </div>
+          </div>
         {% else %}
           {{ page.content }}
         {% endif %}

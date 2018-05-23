@@ -64,7 +64,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   photos: /photos/ || photo
-  # schedule: /schedule/ || calendar
+  schedule: /schedule/ || calendar
   # sitemap: /sitemap.xml || sitemap
   # commonweal: /404/ || heartbeat
 
@@ -482,9 +482,9 @@ baidu_push: true
 # API Documentation:
 # https://developers.google.com/google-apps/calendar/v3/reference/events/list
 calendar:
-  enable: false
-  calendar_id: <required>
-  api_key: <required>
+  enable: true
+  calendar_id: a514387454@gmail.com
+  api_key: AIzaSyDzO0TI-QFiEBjwON9-3arMnxXpRNSzNn4
   orderBy: startTime
   offsetMax: 24
   offsetMin: 4
