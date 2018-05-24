@@ -155,9 +155,15 @@ function buildEventDOM(tense, event) {
   h2Close               = `</h2>`;
 
   locationDOM     = "";
+  descriptionDOM  = "";
   if (showLocation && event['location']) {
     locationDOM   = `<span class="event-location event-details">
                       ${event['location']}
+                     </span>`;
+  }
+  if (event['description']) {
+    descriptionDOM   = `<span class="event-description event-details">
+                      ${event['description']}
                      </span>`;
   }
   relativeTimeDOM = `<span class="event-relative-time">
@@ -173,6 +179,7 @@ function buildEventDOM(tense, event) {
         event['summary'] +
         relativeTimeDOM+
       h2Close +
+      descriptionDOM +
       locationDOM +
       durationDOM +
     liClose;

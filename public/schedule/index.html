@@ -1062,7 +1062,7 @@ var timeMin = new Date();
 var calId           = _n('a514387454@gmail.com')                ;
 var apiKey          = _n('AIzaSyDzO0TI-QFiEBjwON9-3arMnxXpRNSzNn4')                ;
 var orderBy         = _n('')  || 'startTime';
-var showLocation    = _n('')  || 'false'    ;
+var showLocation    = _n('true')  || 'false'    ;
 var offsetMax       = _n( 100000 )  || 72         ;
 var offsetMin       = _n( 100000 )  || 4          ;
 var timeZone        = _n(  )  || void 0     ;
@@ -1201,9 +1201,15 @@ function buildEventDOM(tense, event) {
   h2Close               = `</h2>`;
 
   locationDOM     = "";
+  descriptionDOM  = "";
   if (showLocation && event['location']) {
     locationDOM   = `<span class="event-location event-details">
                       ${event['location']}
+                     </span>`;
+  }
+  if (event['description']) {
+    descriptionDOM   = `<span class="event-description event-details">
+                      ${event['description']}
                      </span>`;
   }
   relativeTimeDOM = `<span class="event-relative-time">
