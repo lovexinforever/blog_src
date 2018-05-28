@@ -448,7 +448,7 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 800px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
@@ -457,7 +457,7 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 800px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
@@ -471,7 +471,7 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 800px;
+  width: 700px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
@@ -1984,7 +1984,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #124bfc;
+  background: #8674b3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2597,8 +2597,8 @@ pre .javascript .function {
   min-height: 40px;
   padding-bottom: 20px;
   padding-top: 20px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px #ff6347;
+  border-radius: 10px;
+  box-shadow: -10px 10px 20px rgba(0,153,255,0.16);
 }
 #schedule ul#event-list li.event h2.event-summary {
   margin: 0;
@@ -2607,11 +2607,11 @@ pre .javascript .function {
 #schedule ul#event-list li.event h2.event-summary:before {
   display: inline-block;
   font-family: FontAwesome;
-  font-size: 8px;
+  font-size: 10px;
   content: '\f111';
   vertical-align: middle;
   margin-right: 25px;
-  color: #bbb;
+  color: #000;
 }
 #schedule ul#event-list li.event span.event-relative-time {
   display: inline-block;
@@ -2648,7 +2648,7 @@ pre .javascript .function {
   content: '\f028';
 }
 #schedule ul#event-list li.event-past {
-  box-shadow: 0 0 20px #e8e8e8;
+  box-shadow: -10px 10px 20px rgba(6,0,1,0.16);
   background: #fcfcfc;
 }
 #schedule ul#event-list li.event-past > * {
@@ -2661,8 +2661,8 @@ pre .javascript .function {
   color: #dfdfdf;
 }
 #schedule ul#event-list li.event-now {
-  background: #ff8c69;
-  box-shadow: 0 0 20px #ee0;
+  background: #222;
+  box-shadow: 0 0 20px #000;
   color: #fff;
   padding: 15px 0 15px 10px;
 }

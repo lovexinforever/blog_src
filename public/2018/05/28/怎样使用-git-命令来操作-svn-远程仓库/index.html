@@ -93,7 +93,7 @@
 <link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="mac,ssh," />
+  <meta name="keywords" content="git,svn," />
 
 
 
@@ -109,27 +109,20 @@
 
 
 
-<meta name="description" content="人的一切痛苦，本质上都是对自己无能的愤怒总有刁民想害朕">
-<meta name="keywords" content="mac,ssh">
+<meta name="description" content="之前因为转组,这个组用 svn 管理代码,并没有 git + gerrit来管理代码.由于习惯了使用 git, 所以就使用 git svn 命令来使用 git 命令管理 svn 仓库.">
+<meta name="keywords" content="git,svn">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Mac 下配置多个 ssh">
-<meta property="og:url" content="https://lovexinforever.github.io/2017/09/12/Mac-下配置多个-ssh/index.html">
+<meta property="og:title" content="怎样使用 git 命令来操作 svn 远程仓库">
+<meta property="og:url" content="https://lovexinforever.github.io/2018/05/28/怎样使用-git-命令来操作-svn-远程仓库/index.html">
 <meta property="og:site_name" content="总有刁民想害朕~">
-<meta property="og:description" content="人的一切痛苦，本质上都是对自己无能的愤怒总有刁民想害朕">
+<meta property="og:description" content="之前因为转组,这个组用 svn 管理代码,并没有 git + gerrit来管理代码.由于习惯了使用 git, 所以就使用 git svn 命令来使用 git 命令管理 svn 仓库.">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505216036950&di=c1bfa3cd3158568e4ebaa0280b5cacf8&imgtype=0&src=http%3A%2F%2Fimg.hb.aicdn.com%2Fc70036ee95575d39ee6131a9757e19cb9a569c9f20f39-KFwh21_fw580">
-<meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170912-170511@2x.png">
-<meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170912-174951@2x.png">
-<meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170912-175312@2x.png">
-<meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170913-085838@2x.png">
-<meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170913-090143@2x.png">
-<meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170913-090537@2x.png">
-<meta property="og:image" content="http://obqo5zeui.bkt.clouddn.com/QQ20170913-090743@2x.png">
-<meta property="og:updated_time" content="2017-09-13T01:16:23.000Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/QQ20180528-142024%402x.png">
+<meta property="og:updated_time" content="2018-05-28T06:26:17.062Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mac 下配置多个 ssh">
-<meta name="twitter:description" content="人的一切痛苦，本质上都是对自己无能的愤怒总有刁民想害朕">
-<meta name="twitter:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505216036950&di=c1bfa3cd3158568e4ebaa0280b5cacf8&imgtype=0&src=http%3A%2F%2Fimg.hb.aicdn.com%2Fc70036ee95575d39ee6131a9757e19cb9a569c9f20f39-KFwh21_fw580">
+<meta name="twitter:title" content="怎样使用 git 命令来操作 svn 远程仓库">
+<meta name="twitter:description" content="之前因为转组,这个组用 svn 管理代码,并没有 git + gerrit来管理代码.由于习惯了使用 git, 所以就使用 git svn 命令来使用 git 命令管理 svn 仓库.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/QQ20180528-142024%402x.png">
 
 
 
@@ -159,13 +152,13 @@
 
 
 
-  <link rel="canonical" href="https://lovexinforever.github.io/2017/09/12/Mac-下配置多个-ssh/"/>
+  <link rel="canonical" href="https://lovexinforever.github.io/2018/05/28/怎样使用-git-命令来操作-svn-远程仓库/"/>
 
 
 
 
 
-  <title>Mac 下配置多个 ssh | 总有刁民想害朕~</title>
+  <title>怎样使用 git 命令来操作 svn 远程仓库 | 总有刁民想害朕~</title>
   
 
 
@@ -369,7 +362,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lovexinforever.github.io/2017/09/12/Mac-下配置多个-ssh/">
+    <link itemprop="mainEntityOfPage" href="https://lovexinforever.github.io/2018/05/28/怎样使用-git-命令来操作-svn-远程仓库/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="总有刁民想害朕">
@@ -386,7 +379,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Mac 下配置多个 ssh</h2>
+          <h2 class="post-title" itemprop="name headline">怎样使用 git 命令来操作 svn 远程仓库</h2>
         
 
         <div class="post-meta">
@@ -398,8 +391,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-12T15:51:23+08:00">
-                2017-09-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-28T13:18:09+08:00">
+                2018-05-28
               </time>
             
 
@@ -414,8 +407,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-09-13T09:16:23+08:00">
-                2017-09-13
+              <time title="更新于" itemprop="dateModified" datetime="2018-05-28T14:26:17+08:00">
+                2018-05-28
               </time>
             
           </span>
@@ -435,6 +428,17 @@
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/技术/" itemprop="url" rel="index">
                     <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
                   </a>
                 </span>
 
@@ -464,7 +468,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  294
+                  280
                 </span>
               
 
@@ -489,11 +493,6 @@
         
           
           
-            <span class="post-meta-item-icon">
-                  <i class="fa fa-newspaper-o jingping">精品</i>
-                </span>
-            
-          
 
 
 
@@ -512,42 +511,20 @@
       
 
       
-        <p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505216036950&di=c1bfa3cd3158568e4ebaa0280b5cacf8&imgtype=0&src=http%3A%2F%2Fimg.hb.aicdn.com%2Fc70036ee95575d39ee6131a9757e19cb9a569c9f20f39-KFwh21_fw580"></p>
-<blockquote class="blockquote-center"><h2>人的一切痛苦，本质上都是对自己无能的愤怒</h2><br>总有刁民想害朕</blockquote>
-
-<a id="more"></a>
-<h3 id="我们每个人都有多个仓库来提交代码-工作中的和个人的-本篇文章就教你怎样管理多个-ssh-来提交代码"><a href="#我们每个人都有多个仓库来提交代码-工作中的和个人的-本篇文章就教你怎样管理多个-ssh-来提交代码" class="headerlink" title="我们每个人都有多个仓库来提交代码,工作中的和个人的.本篇文章就教你怎样管理多个 ssh 来提交代码."></a>我们每个人都有多个仓库来提交代码,工作中的和个人的.本篇文章就教你怎样管理多个 ssh 来提交代码.</h3><h2 id="查看-ssh-文件夹下面的文件"><a href="#查看-ssh-文件夹下面的文件" class="headerlink" title="查看 .ssh 文件夹下面的文件"></a>查看 <strong>.ssh</strong> 文件夹下面的文件</h2><p>一种是直接进入 .ssh 文件目录</p>
-<blockquote>
-<p>cd ~/.ssh</p>
-</blockquote>
-<p>或者 直接查看 .ssh 文件夹</p>
-<blockquote>
-<p>ls ~/.ssh</p>
-</blockquote>
-<p><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170912-170511@2x.png"></p>
-<h2 id="生成一个SSH-Key"><a href="#生成一个SSH-Key" class="headerlink" title="生成一个SSH-Key"></a>生成一个SSH-Key</h2><blockquote>
-<p>ssh-keygen -t rsa -C “<a href="mailto:tim_ding@qq.com" target="_blank" rel="noopener">tim_ding@qq.com</a>“</p>
-</blockquote>
-<p><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170912-174951@2x.png"><br>如果 .ssh 文件下已经有文件了 ,最好重新命名<br>密码建议填空</p>
-<h2 id="成功生成-SSH-KEY"><a href="#成功生成-SSH-KEY" class="headerlink" title="成功生成 SSH-KEY"></a>成功生成 SSH-KEY</h2><p><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170912-175312@2x.png"></p>
-<h2 id="配置-SSH-KEY"><a href="#配置-SSH-KEY" class="headerlink" title="配置 SSH-KEY"></a>配置 SSH-KEY</h2><p>在~/.ssh/目录下会生成id-rsa_hostname和id-rsa_hostname.pub私钥和公钥。 我们将id-rsa_hostname.pub中的内容粘帖到服务器的SSH-key的配置中。</p>
-<blockquote>
-<p>cat ~/.ssh/github_blog_rsa.pub</p>
-</blockquote>
-<p><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-085838@2x.png"><br>在GitHub的设置中粘贴公钥<br><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-090143@2x.png"></p>
-<p>至此, ssh 就配置完成了.</p>
-<h2 id="验证配置是否成功"><a href="#验证配置是否成功" class="headerlink" title="验证配置是否成功"></a>验证配置是否成功</h2><blockquote>
-<p>ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a></p>
-</blockquote>
-<p>笔者出现了如下错误<br><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-090537@2x.png"><br>那是因为目录下有多个 ssh, 需要配置 config</p>
-<h2 id="打开-config-文件"><a href="#打开-config-文件" class="headerlink" title="打开 config 文件"></a>打开 config 文件</h2><blockquote>
-<p>vim ~/.ssh/config</p>
-</blockquote>
-<p><img src="http://obqo5zeui.bkt.clouddn.com/QQ20170913-090743@2x.png"><br>添加如下</p>
-<blockquote>
-<p> Host github.com<br>   HostName github.com<br>   User timding<br>   IdentityFile ~/.ssh/github_blog_rsa</p>
-</blockquote>
-<p>然后保存.再执行 <code>ssh -T git@github.com</code> 就成功了.</p>
+        <p>之前因为转组,这个组用 <code>svn</code> 管理代码,并没有 <code>git</code> + <code>gerrit</code>来管理代码.由于习惯了使用 git, 所以就使用 <code>git svn</code> 命令来使用 git 命令管理 svn 仓库.<br><a id="more"></a></p>
+<h3 id="查看-svn-代码结构"><a href="#查看-svn-代码结构" class="headerlink" title="查看 svn 代码结构"></a>查看 svn 代码结构</h3><p>project<br>   |<strong><em>branches<br>   |</em></strong>tags<br>   |___trunk<br>这是我项目的 svn 结构. trunk 是源码, tags 是项目打的 tag, branches 是项目的分支.</p>
+<h3 id="clone-命令"><a href="#clone-命令" class="headerlink" title="clone 命令"></a>clone 命令</h3><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git svn <span class="keyword">clone</span> <span class="title">-r</span> <span class="number">1394873</span>:HEAD http://svn.<span class="number">99</span>bill.net/opt/<span class="number">99</span>billsrc/PMD/Branches/MOB/Android/app-SmartPOS2.<span class="number">0</span>  --username yang.ding@<span class="number">99</span>bill.com --trunk <span class="string">"trunk"</span> --<span class="keyword">tag</span> <span class="title">"tags</span><span class="string">" --branch "</span>branches<span class="string">" develop_smartpos</span></span><br></pre></td></tr></table></figure>
+<p>其中 -r 1394873  是 svn 中你需要 clone 的起始 commit.</p>
+<h3 id="使用命令"><a href="#使用命令" class="headerlink" title="使用命令"></a>使用命令</h3><p><code>git svn fetch</code>  拉去远程代码</p>
+<p><code>git svn rebase</code> 合并远程代码</p>
+<p><code>git svn dcommit</code> 提交代码</p>
+<p><code>git svn tags &#39;des&#39;</code> 打远程 tag</p>
+<p><code>git svn branches &#39;branches&#39;</code> 创建远程分支</p>
+<p>其他的本地 branches 切换 创建 branches 和 git 命令一样. 主要就是和远程 repo 操作需要用到 git svn 命令.</p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p>使用 <code>gitk --all</code> 查看 repo.</p>
+<p><img src="https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/blog_photos/QQ20180528-142024%402x.png"></p>
+<h3 id="QA"><a href="#QA" class="headerlink" title="QA"></a>QA</h3><p>Q:如果我在 origin branch a 有个 commit 想提交到 origin branch b, 怎么提交</p>
+<p>A:使用 git checkout 切换到 origin branch b, 然后把 commit cherry-pick 过来,再执行 git svn dcommit. </p>
 
       
     </div>
@@ -597,7 +574,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://lovexinforever.github.io/2017/09/12/Mac-下配置多个-ssh/" title="Mac 下配置多个 ssh">https://lovexinforever.github.io/2017/09/12/Mac-下配置多个-ssh/</a>
+    <a href="https://lovexinforever.github.io/2018/05/28/怎样使用-git-命令来操作-svn-远程仓库/" title="怎样使用 git 命令来操作 svn 远程仓库">https://lovexinforever.github.io/2018/05/28/怎样使用-git-命令来操作-svn-远程仓库/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -612,9 +589,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/mac/" rel="tag" class="fa fa-tag"> mac</a>
+            <a href="/tags/git/" rel="tag" class="fa fa-tag"> git</a>
           
-            <a href="/tags/ssh/" rel="tag" class="fa fa-tag"> ssh</a>
+            <a href="/tags/svn/" rel="tag" class="fa fa-tag"> svn</a>
           
         </div>
       
@@ -637,8 +614,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/06/01/Android-Toast-类分装/" rel="next" title="Android Toast 类分装">
-                <i class="fa fa-chevron-left"></i> Android Toast 类分装
+              <a href="/2018/05/17/Identifiers-must-have-user-defined-types-from-the-XML-file-View-is-missing/" rel="next" title="Identifiers must have user defined types from the XML file. View is missing">
+                <i class="fa fa-chevron-left"></i> Identifiers must have user defined types from the XML file. View is missing
               </a>
             
           </div>
@@ -646,10 +623,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/09/13/Hexo的版本控制与持续集成/" rel="prev" title="Hexo的版本控制与持续集成">
-                Hexo的版本控制与持续集成 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -868,7 +841,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">人的一切痛苦，本质上都是对自己无能的愤怒</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#我们每个人都有多个仓库来提交代码-工作中的和个人的-本篇文章就教你怎样管理多个-ssh-来提交代码"><span class="nav-number">1.1.</span> <span class="nav-text">我们每个人都有多个仓库来提交代码,工作中的和个人的.本篇文章就教你怎样管理多个 ssh 来提交代码.</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看-ssh-文件夹下面的文件"><span class="nav-number">2.</span> <span class="nav-text">查看 .ssh 文件夹下面的文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#生成一个SSH-Key"><span class="nav-number">3.</span> <span class="nav-text">生成一个SSH-Key</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#成功生成-SSH-KEY"><span class="nav-number">4.</span> <span class="nav-text">成功生成 SSH-KEY</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置-SSH-KEY"><span class="nav-number">5.</span> <span class="nav-text">配置 SSH-KEY</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#验证配置是否成功"><span class="nav-number">6.</span> <span class="nav-text">验证配置是否成功</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#打开-config-文件"><span class="nav-number">7.</span> <span class="nav-text">打开 config 文件</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#查看-svn-代码结构"><span class="nav-number">1.</span> <span class="nav-text">查看 svn 代码结构</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#clone-命令"><span class="nav-number">2.</span> <span class="nav-text">clone 命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用命令"><span class="nav-number">3.</span> <span class="nav-text">使用命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#效果"><span class="nav-number">4.</span> <span class="nav-text">效果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#QA"><span class="nav-number">5.</span> <span class="nav-text">QA</span></a></li></ol></div>
             
 
           </div>
