@@ -19,4 +19,11 @@
       {{ totalcount(site, '0,0.0a') }}
     </span>
   {% endif %}
+  {% if config.beianhao %}
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    <span class="post-meta-item-text">{{config.beianhao }}</span>
+  {% endif %}
 </div>
