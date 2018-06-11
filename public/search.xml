@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo + Next 怎样添加推广广告链接]]></title>
+    <url>%2F2018%2F06%2F11%2Fhexo-Next-%E6%80%8E%E6%A0%B7%E6%B7%BB%E5%8A%A0%E6%8E%A8%E5%B9%BF%E5%B9%BF%E5%91%8A%E9%93%BE%E6%8E%A5%2F</url>
+    <content type="text"></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+        <tag>广告</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Could not find common.jar (android.arch.core:common:1.1.0)]]></title>
     <url>%2F2018%2F05%2F29%2FCould-not-find-common-jar-android-arch-core-common-1-1-0%2F</url>
     <content type="text"><![CDATA[android studio build 报错 Could not find common.jar (android.arch.core:common:1.1.0) 解决办法. 打开 root build.gradle Add maven { url &#39;https://maven.google.com&#39; } before jcenter() in12345allprojects &#123; repositories &#123; jcenter() &#125;&#125;]]></content>
