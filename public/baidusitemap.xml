@@ -4,8 +4,34 @@
 
     
   <url>
+    <loc>https://lovexinforever.github.io/2018/05/29/Could-not-find-common-jar-android-arch-core-common-1-1-0/</loc>
+    <lastmod>2018-05-29T05:01:17.007Z</lastmod>
+    <data>
+        <display>
+        <title>Could not find common.jar (android.arch.core:common:1.1.0)</title>
+        <pubTime>2018-05-29T02:28:32.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/"/>
+          
+             
+              <breadCrumb title="Android" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://lovexinforever.github.io/2018/05/28/%E6%80%8E%E6%A0%B7%E4%BD%BF%E7%94%A8-git-%E5%91%BD%E4%BB%A4%E6%9D%A5%E6%93%8D%E4%BD%9C-svn-%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/</loc>
-    <lastmod>2018-05-28T06:26:17.062Z</lastmod>
+    <lastmod>2018-05-28T06:28:32.229Z</lastmod>
     <data>
         <display>
         <title>怎样使用 git 命令来操作 svn 远程仓库</title>
@@ -216,28 +242,6 @@
 
     
   <url>
-    <loc>https://lovexinforever.github.io/2016/06/01/%E5%85%AD%E4%B8%80%E5%84%BF%E7%AB%A5%E8%8A%82/</loc>
-    <lastmod>2018-05-02T05:55:01.750Z</lastmod>
-    <data>
-        <display>
-        <title>六一儿童节</title>
-        <pubTime>2016-06-01T01:44:58.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>node.js</tag>
-         
-         
-           
-             
-              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%97%A5%E5%BF%97/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://lovexinforever.github.io/2017/10/26/%E4%B8%83%E9%98%B6%E9%AD%94%E6%96%B9%E4%B8%AD%E5%BF%83%E5%9D%97%E5%90%88%E5%B9%B6%E5%85%AC%E5%BC%8F-%E5%90%AB%E4%BA%94%E9%98%B6%E9%AD%94%E6%96%B9/</loc>
     <lastmod>2018-05-02T05:55:01.750Z</lastmod>
     <data>
@@ -267,6 +271,28 @@
 
     
   <url>
+    <loc>https://lovexinforever.github.io/2016/06/01/%E5%85%AD%E4%B8%80%E5%84%BF%E7%AB%A5%E8%8A%82/</loc>
+    <lastmod>2018-05-02T05:55:01.750Z</lastmod>
+    <data>
+        <display>
+        <title>六一儿童节</title>
+        <pubTime>2016-06-01T01:44:58.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>node.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%97%A5%E5%BF%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://lovexinforever.github.io/2015/12/25/%E5%85%B3%E4%BA%8E%E7%94%A8-hexo-d-%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2018-05-02T05:55:01.750Z</lastmod>
     <data>
@@ -275,30 +301,6 @@
         <pubTime>2015-12-25T05:25:05.000Z</pubTime>
         
         <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2017/09/14/js-%E6%AD%A3%E5%88%99%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E6%98%AF%E6%89%8B%E6%9C%BA%E5%8F%B7/</loc>
-    <lastmod>2018-05-02T05:55:01.749Z</lastmod>
-    <data>
-        <display>
-        <title>js 正则判断是否是手机号</title>
-        <pubTime>2017-09-14T03:20:14.000Z</pubTime>
-        
-        <tag>js</tag>
-         
-        <tag>正则</tag>
-         
-        <tag>判断手机号</tag>
          
          
            
@@ -375,6 +377,30 @@
 
     
   <url>
+    <loc>https://lovexinforever.github.io/2017/09/14/js-%E6%AD%A3%E5%88%99%E5%88%A4%E6%96%AD%E6%98%AF%E5%90%A6%E6%98%AF%E6%89%8B%E6%9C%BA%E5%8F%B7/</loc>
+    <lastmod>2018-05-02T05:55:01.749Z</lastmod>
+    <data>
+        <display>
+        <title>js 正则判断是否是手机号</title>
+        <pubTime>2017-09-14T03:20:14.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+        <tag>正则</tag>
+         
+        <tag>判断手机号</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://lovexinforever.github.io/2017/10/16/python-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/</loc>
     <lastmod>2018-05-02T05:55:01.749Z</lastmod>
     <data>
@@ -395,6 +421,31 @@
           
              
               <breadCrumb title="Python" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2015/12/23/hexo-%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0-demo/</loc>
+    <lastmod>2018-05-02T05:55:01.748Z</lastmod>
+    <data>
+        <display>
+        <title>hexo 创建文章 demo</title>
+        <pubTime>2015-12-23T01:31:52.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>node.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/"/>
           
         </display>
     </data>
@@ -437,31 +488,6 @@
         <tag>git</tag>
          
         <tag>github</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lovexinforever.github.io/2015/12/23/hexo-%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0-demo/</loc>
-    <lastmod>2018-05-02T05:55:01.748Z</lastmod>
-    <data>
-        <display>
-        <title>hexo 创建文章 demo</title>
-        <pubTime>2015-12-23T01:31:52.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>node.js</tag>
          
          
            
@@ -581,35 +607,6 @@
 
     
   <url>
-    <loc>https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%BA%8C/</loc>
-    <lastmod>2018-05-02T05:55:01.746Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo+NexT 博客搭建相册(二)</title>
-        <pubTime>2017-09-18T06:10:24.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>NexT</tag>
-         
-        <tag>相册</tag>
-         
-        <tag>Photo</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-          
-             
-              <breadCrumb title="Hexo" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%B8%80/</loc>
     <lastmod>2018-05-02T05:55:01.746Z</lastmod>
     <data>
@@ -639,20 +636,20 @@
 
     
   <url>
-    <loc>https://lovexinforever.github.io/2017/09/22/Android-%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E7%B1%BB%E5%9E%8B/</loc>
-    <lastmod>2018-05-02T05:55:01.745Z</lastmod>
+    <loc>https://lovexinforever.github.io/2017/09/18/Hexo-NexT-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%86%8C-%E4%BA%8C/</loc>
+    <lastmod>2018-05-02T05:55:01.746Z</lastmod>
     <data>
         <display>
-        <title>Android 获取当前网络连接类型</title>
-        <pubTime>2017-09-22T01:49:14.000Z</pubTime>
+        <title>Hexo+NexT 博客搭建相册(二)</title>
+        <pubTime>2017-09-18T06:10:24.000Z</pubTime>
         
-        <tag>wifi</tag>
+        <tag>Hexo</tag>
          
-        <tag>android</tag>
+        <tag>NexT</tag>
          
-        <tag>安卓</tag>
+        <tag>相册</tag>
          
-        <tag>网络</tag>
+        <tag>Photo</tag>
          
          
            
@@ -660,10 +657,7 @@
               <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
           
              
-              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/"/>
-          
-             
-              <breadCrumb title="Android" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/Android/"/>
+              <breadCrumb title="Hexo" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/Hexo/"/>
           
         </display>
     </data>
@@ -683,6 +677,38 @@
         <tag>跑马灯</tag>
          
         <tag>自定义textview</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+          
+             
+              <breadCrumb title="日志" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/"/>
+          
+             
+              <breadCrumb title="Android" url="https://lovexinforever.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%97%A5%E5%BF%97/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lovexinforever.github.io/2017/09/22/Android-%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E7%B1%BB%E5%9E%8B/</loc>
+    <lastmod>2018-05-02T05:55:01.745Z</lastmod>
+    <data>
+        <display>
+        <title>Android 获取当前网络连接类型</title>
+        <pubTime>2017-09-22T01:49:14.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+        <tag>wifi</tag>
+         
+        <tag>安卓</tag>
+         
+        <tag>网络</tag>
          
          
            
