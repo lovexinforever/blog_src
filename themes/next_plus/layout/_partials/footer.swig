@@ -22,7 +22,7 @@
   {% if config.beianhao %}
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
+      <i class="fa fa-eyedropper"></i>
     </span>
     <span class="post-meta-item-text">{{config.beianhao }}</span>
   {% endif %}
