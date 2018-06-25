@@ -7,7 +7,7 @@ tags:
 - CI
 - AppVeyor
 categories:
-- 技术
+- Technology
 ---
 因为之前是 appveyor 来自动构建我的博客的.至于怎么用  appveyor 构建 hexo 博客,可以移步<a href="https://timding.top/2017/09/13/Hexo%E7%9A%84%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E4%B8%8E%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90">Hexo的版本控制与持续集成</a>
     <!--more-->

@@ -5,7 +5,7 @@ tags:
 - HTML5
 - 标签
 categories:
-- 技术
+- Technology
 - HTML5
 ---
 Html5 新元素

@@ -7,8 +7,8 @@ tags:
 - 验证码
 - 自定义输入框
 categories: 
-- 技术
-- 日志
+- Technology
+- Journal
 - Android
 photos: 
 - /imgs/bg2.jpg

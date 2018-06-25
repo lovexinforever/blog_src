@@ -6,8 +6,8 @@ tags:
 - 跑马灯
 - 自定义textview
 categories: 
-- 技术
-- 日志
+- Technology
+- Journal
 - Android
 photos: 
 - /imgs/bg2.jpg

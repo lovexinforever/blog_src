@@ -4,8 +4,8 @@ date: 2018-05-29 10:28:32
 tags:
 - android
 categories:
-- 技术
-- 日志
+- Technology
+- Journal
 - Android
 ---
 

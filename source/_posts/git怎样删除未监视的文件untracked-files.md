@@ -5,7 +5,7 @@ tags:
 - git
 - untracked
 categories:
-- 技术
+- Technology
 - Git
 ---
 

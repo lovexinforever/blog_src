@@ -6,7 +6,7 @@ tags:
 - NexT
 - 广告
 categroies:
-- 技术
+- Technology
 - Hexo
 top: 8
 essential: true

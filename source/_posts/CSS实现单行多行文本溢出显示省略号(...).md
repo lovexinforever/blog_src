@@ -7,7 +7,7 @@ tags:
 - HTML5
 - 单行显示
 categories:
-- 技术
+- Technology
 - HTML5
 - CSS3
 ---

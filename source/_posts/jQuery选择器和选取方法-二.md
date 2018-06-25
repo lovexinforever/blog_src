@@ -7,7 +7,7 @@ tags:
 - JQuery
 - 选择器
 categories:
-- 技术
+- Technology
 - HTML5
 - JS
 essential: true

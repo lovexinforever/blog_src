@@ -7,7 +7,7 @@ tags:
 - 相册
 - Photo
 categories:
-- 技术
+- Technology
 - Hexo
 essential: true
 ---

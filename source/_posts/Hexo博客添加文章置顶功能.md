@@ -5,7 +5,7 @@ tags:
 - hexo
 - 置顶
 categories: 
-- 技术
+- Technology
 ---
 原来用的WordPress，直接很方便地管理置顶文章，Hexo只提供了按发布日期的排序，只好网上找了些资料修改。
 

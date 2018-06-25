@@ -6,7 +6,7 @@ tags:
 - mac
 - ssh
 categories:
-- 技术
+- Technology
 essential: true
 ---
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505216036950&di=c1bfa3cd3158568e4ebaa0280b5cacf8&imgtype=0&src=http%3A%2F%2Fimg.hb.aicdn.com%2Fc70036ee95575d39ee6131a9757e19cb9a569c9f20f39-KFwh21_fw580" />

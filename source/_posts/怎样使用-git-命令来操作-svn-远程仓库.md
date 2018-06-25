@@ -5,7 +5,7 @@ tags:
 - git
 - svn
 categories:
-- 技术
+- Technology
 - Git
 ---
 之前因为转组,这个组用 `svn` 管理代码,并没有 `git` + `gerrit`来管理代码.由于习惯了使用 git, 所以就使用 `git svn` 命令来使用 git 命令管理 svn 仓库.

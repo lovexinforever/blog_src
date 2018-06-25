@@ -5,8 +5,8 @@ tags:
 - hexo
 - node.js
 categories: 
-- 技术
-- 日志
+- Technology
+- Journal
 
 
 ---

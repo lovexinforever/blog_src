@@ -7,8 +7,8 @@ tags:
 - 安卓
 - 网络
 categories: 
-- 技术
-- 日志
+- Technology
+- Journal
 - Android
 photos: 
 - /imgs/bg2.jpg

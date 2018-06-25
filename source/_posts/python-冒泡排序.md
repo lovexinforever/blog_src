@@ -6,7 +6,7 @@ tags:
 - 排序
 - 冒泡排序
 categories:
-- 技术
+- Technology
 - Python
 essential: true
 ---

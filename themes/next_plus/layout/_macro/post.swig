@@ -237,7 +237,7 @@
 
         {% if post.top %}
             <span class="post-meta-item-icon">
-                  <i class="fa fa-thumb-tack zhidingtop">置顶</i>
+                  <i class="fa fa-thumb-tack zhidingtop">TOP</i>
                 </span>
             
           {% endif %}
@@ -246,7 +246,7 @@
           {% endif %}
           {% if post.essential%}
             <span class="post-meta-item-icon">
-                  <i class="fa fa-newspaper-o jingping">精品</i>
+                  <i class="fa fa-newspaper-o jingping">Boutique</i>
                 </span>
             
           {% endif %}

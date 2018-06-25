@@ -5,8 +5,8 @@ tags:
 - git
 - github
 categories: 
-- 技术
-- 日志
+- Technology
+- Journal
 ---
 ### 由于最近需要把代码上传到github上,之前只是用来fork别人的代码.所以写了这篇文章.运行环境windows.
 <!-- more -->

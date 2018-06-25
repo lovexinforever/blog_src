@@ -7,7 +7,7 @@ tags:
 - 天气
 - beautifulsoup
 categories:
-- 技术
+- Technology
 - Python
 essential: true
 ---

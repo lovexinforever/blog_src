@@ -5,7 +5,7 @@ tags:
 - android
 - databinding
 categories:
-- 技术
+- Technology
 - Android
 ---
 
