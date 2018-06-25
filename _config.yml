@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一知半解
-subtitle: 一个一知半解的程序猿
+title: TIM'S BLOG
+subtitle: A little-known program
 description: 会当凌绝顶 
 author: 一知半解
 language: zh-Hans
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://lovexinforever.github.io/
+url: https://timding.top/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
