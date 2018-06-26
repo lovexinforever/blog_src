@@ -100,7 +100,7 @@ scheme: Mist
 social:
   GitHub: https://github.com/lovexinforever || github
   E-Mail: mailto:a514387454@gmail.com || envelope
-  微博: http://weibo.com/5493554807 || weibo
+  Weibo: http://weibo.com/5493554807 || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -533,7 +533,7 @@ note:
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
   style: simple
-  icons: false
+  icons: true
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
   # Offset also applied to label tag variables. This option can work with disabled note tag.
@@ -564,7 +564,7 @@ daovoice_app_id: 22d64a6f
 # Motion
 motion:
   enable: true
-  async: false
+  async: true
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
