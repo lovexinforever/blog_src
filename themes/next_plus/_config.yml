@@ -113,7 +113,7 @@ social:
 social_icons:
   enable: true
   icons_only: false
-  transition: true
+  transition: false
 
 # Blog rolls
 links_title: 友情链接
@@ -564,7 +564,7 @@ daovoice_app_id: 22d64a6f
 # Motion
 motion:
   enable: true
-  async: true
+  async: false
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
