@@ -403,6 +403,10 @@ duoshuo_info:
   user_id: 0
   #admin_nickname: Author
 
+about:
+  enable: true
+  url: https://timding.top/aboutMe
+
 
 
 # Facebook SDK Support.
