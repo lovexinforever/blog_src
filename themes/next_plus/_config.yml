@@ -490,8 +490,8 @@ calendar:
   calendar_id: a514387454@gmail.com
   api_key: AIzaSyDzO0TI-QFiEBjwON9-3arMnxXpRNSzNn4
   orderBy: startTime
-  offsetMax: 1000
-  offsetMin: 1000
+  offsetMax: 10000
+  offsetMin: 10000
   showLocation: true
   timeZone:
   showDeleted: false
