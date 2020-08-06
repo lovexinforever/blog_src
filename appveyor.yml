@@ -24,6 +24,7 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - node --version
   - npm --version
+  - npm config set registry https://registry.npm.taobao.org
   - npm install
   - npm install hexo -g
   - npm install hexo-cli -g
@@ -33,7 +34,7 @@ install:
   - npm install hexo-generator-searchdb --save
 
 build_script:
-#  - hexo clean
+  - hexo clean
   - hexo generate
 
 artifacts:
