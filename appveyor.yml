@@ -1,7 +1,7 @@
 clone_depth: 5
 
 environment:
-  nodejs_version: "10"
+  nodejs_version: "6"
   matrix:
     - access_token:
         secure: akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG
@@ -21,7 +21,7 @@ environment:
 
 
 install:
-#  - ps: Install-Product node $env:nodejs_version
+  - ps: Install-Product node $env:nodejs_version
   - node --version
   - npm --version
   - npm install
@@ -33,7 +33,7 @@ install:
   - npm install hexo-generator-searchdb --save
 
 build_script:
-  - hexo clean
+#  - hexo clean
   - hexo generate
 
 artifacts:
