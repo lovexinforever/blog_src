@@ -24,6 +24,7 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - node --version
   - npm --version
+  - npm cache verify
   - npm install
   - npm install hexo -g
   - npm install hexo-cli -g
