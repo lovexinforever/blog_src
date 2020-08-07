@@ -24,8 +24,8 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - node --version
   - npm --version
-  - npm cache verify
   - npm install
+  - npm cache verify
   - npm install hexo -g
   - npm install hexo-cli -g
   - npm install hexo-wordcount@2 --save
