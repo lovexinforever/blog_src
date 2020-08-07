@@ -1,7 +1,7 @@
 clone_depth: 5
 
 environment:
-  nodejs_version: "6"
+  nodejs_version: "14"
   matrix:
     - access_token:
         secure: akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG
@@ -25,7 +25,7 @@ install:
   - node --version
   - npm --version
   - npm install
-  - npm cache verify
+#  - npm cache verify
   - npm install hexo -g
   - npm install hexo-cli -g
   - npm install hexo-wordcount@2 --save
