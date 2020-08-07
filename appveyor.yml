@@ -1,7 +1,7 @@
 clone_depth: 5
 
 environment:
-  nodejs_version: "6"
+  nodejs_version: "8"
   matrix:
     - access_token:
         secure: akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG
