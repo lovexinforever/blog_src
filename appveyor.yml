@@ -29,10 +29,10 @@ install:
   - npm install hexo -g
   - npm cache verify
   - npm install hexo-cli -g --force
-  - npm install hexo-wordcount@2 --save
-  - npm install hexo-generator-sitemap --save
-  - npm install hexo-generator-baidu-sitemap --save
-  - npm install hexo-generator-searchdb --save
+  - npm install hexo-wordcount@2 --save --force
+  - npm install hexo-generator-sitemap --save --force
+  - npm install hexo-generator-baidu-sitemap --save --force
+  - npm install hexo-generator-searchdb --save --force
 
 build_script:
   - hexo clean
