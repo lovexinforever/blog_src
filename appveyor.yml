@@ -25,14 +25,16 @@ install:
   - node --version
 #  - npm install -g npm --registry=https://registry.npm.taobao.org
   - npm --version
-  - npm install
+  - npm cache clean --force
+#  - npm install
+  - npm install --registry=https://registry.npm.taobao.org
   - npm install hexo -g
-  - npm cache verify
+#  - npm cache verify
   - npm install hexo-cli -g --force
-  - npm install hexo-wordcount@2 --save --force
-  - npm install hexo-generator-sitemap --save --force
-  - npm install hexo-generator-baidu-sitemap --save --force
-  - npm install hexo-generator-searchdb --save --force
+#  - npm install hexo-wordcount@2 --save --force
+#  - npm install hexo-generator-sitemap --save --force
+#  - npm install hexo-generator-baidu-sitemap --save --force
+#  - npm install hexo-generator-searchdb --save --force
 
 build_script:
   - hexo clean
