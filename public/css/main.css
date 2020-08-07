@@ -2027,7 +2027,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cdffff;
+  background: #13f0ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2638,13 +2638,11 @@ li {
 }
 #schedule ul#event-list li.event {
   margin: 20px 0px;
-  background-color: #f9f9f9;
+  background: #f9f9f9;
   padding-left: 10px;
   min-height: 40px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-radius: 10px;
-  box-shadow: -10px 10px 20px rgba(0,153,255,0.16);
+  -moz-box-shadow: 0 0 5px #888; /* 老的 Firefox */
+  box-shadow: 0 0 20px #bbe;
 }
 #schedule ul#event-list li.event h2.event-summary {
   margin: 0;
@@ -2653,11 +2651,11 @@ li {
 #schedule ul#event-list li.event h2.event-summary:before {
   display: inline-block;
   font-family: FontAwesome;
-  font-size: 10px;
+  font-size: 8px;
   content: '\f111';
   vertical-align: middle;
   margin-right: 25px;
-  color: #000;
+  color: #bbb;
 }
 #schedule ul#event-list li.event span.event-relative-time {
   display: inline-block;
@@ -2690,11 +2688,7 @@ li {
 #schedule ul#event-list li.event span.event-details.event-duration:before {
   content: '\f017';
 }
-#schedule ul#event-list li.event span.event-details.event-description:before {
-  content: '\f028';
-}
 #schedule ul#event-list li.event-past {
-  box-shadow: -10px 10px 20px rgba(6,0,1,0.16);
   background: #fcfcfc;
 }
 #schedule ul#event-list li.event-past > * {
@@ -2708,7 +2702,6 @@ li {
 }
 #schedule ul#event-list li.event-now {
   background: #222;
-  box-shadow: 0 0 20px #000;
   color: #fff;
   padding: 15px 0 15px 10px;
 }

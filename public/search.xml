@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[react native 仿照喜马拉雅音频详情页的滑动卡片特效]]></title>
+    <url>%2F2020%2F08%2F07%2Freact-native-%E4%BB%BF%E7%85%A7%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E9%9F%B3%E9%A2%91%E8%AF%A6%E6%83%85%E9%A1%B5%E7%9A%84%E6%BB%91%E5%8A%A8%E5%8D%A1%E7%89%87%E7%89%B9%E6%95%88%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Technology</category>
+        <category>ReactNative</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>react native</tag>
+        <tag>喜马拉雅</tag>
+        <tag>滑动式卡片</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[react native BottomTabNavigator 点击打开新页面]]></title>
     <url>%2F2019%2F10%2F10%2Freact-native-BottomTabNavigator-%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80%E6%96%B0%E9%A1%B5%E9%9D%A2%2F</url>
     <content type="text"><![CDATA[最近用rn 做项目, 需要一个需求, 底部tab 中间的tab 不是切换页面, 是跳转到新页面. 查了下 api文档 1234567891011screen: CompanyJobManager, navigationOptions: &#123; tabBarLabel: " ", tabBarIcon: (&#123;tintColor, focused&#125;) =&gt; ( &lt;Image source=&#123;require('./images/add.png')&#125; resize="contains" style=&#123;&#123;width: 40, height: 40, marginTop: 10&#125;&#125;/&gt; ), tabBarOnPress: (&#123;navigation, defaultHandle&#125;) =&gt; &#123; navigation.push('PostJob', &#123;isUpdate: false&#125;) &#125; &#125;,]]></content>
