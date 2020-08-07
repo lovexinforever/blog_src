@@ -23,6 +23,7 @@ environment:
 install:
   - ps: Install-Product node $env:nodejs_version
   - node --version
+  - npm install -g npm --registry=https://registry.npm.taobao.org
   - npm --version
   - npm install
 #  - npm cache verify
