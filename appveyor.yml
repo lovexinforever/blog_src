@@ -4,7 +4,7 @@ environment:
   nodejs_version: "14"
   matrix:
     - access_token:
-        secure: akFe5nosuPRJ3VD01y9g+AClqImTEW0TAnBjNaendNd18qRYhpAL1sMjcML0WWOG
+        secure: IArrFXUW38330Vpe2p35cetM6/nbOSnqApk5puosiSlRlEEcOqDETgEPpCkE2HL2
       GIT_USER_EMAIL: tim_ding@qq.com
       GIT_USER_NAME: timding
       TARGET_BRANCH: master
