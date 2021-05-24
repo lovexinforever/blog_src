@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @Author: yang.ding
+ * @version: 
+ * @Date: 2018-06-11 16:09:23
+ * @LastEditors: yang.ding
+ * @LastEditTime: 2021-05-24 14:09:44
+-->
 ---
 title: hexo + Next 怎样添加推广广告链接
 date: 2018-06-11 16:09:23
@@ -8,8 +16,6 @@ tags:
 categroies:
 - Technology
 - Hexo
-top: 8
-essential: true
 photos: 
 - https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/photos/2017-10-17_%E6%88%98%E5%A3%AB%E5%9F%8E%E5%A0%A1.jpg
 - https://raw.githubusercontent.com/lovexinforever/blog_back_up/master/photos/2017-10-17_%E9%B9%B0.jpg
