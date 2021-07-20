@@ -576,7 +576,7 @@
       
 
       
-        <p>上一篇文章<a href="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/" target="_blank" rel="noopener"><code>jQuery选择器和选取方法(一)</code></a>讲解了 JQuery 选择器.今天将说下选择的选取方法.<br><a id="more"></a></p>
+        <p>上一篇文章<a href="https://lovexinforever.github.io/2017/09/26/jQuery选择器和选取方法/"><code>jQuery选择器和选取方法(一)</code></a>讲解了 JQuery 选择器.今天将说下选择的选取方法.<br><a id="more"></a></p>
 <h2 id="选取方法"><a href="#选取方法" class="headerlink" title="选取方法"></a>选取方法</h2><p>除了$()函数支持的选择器语法，jQuery还定义了一些选取方法。本章中我们已看到过的大部分jQuery方法都是在选中元素上执行某种操作。选取方法不一样:它们会修改选中元素集，对其进行提取、扩充或仅作为新选取操作的起点。</p>
 <p>本节描述这些选取方法。你会注意到这些选取方法中的多数提供的功能与选择器语法的功能是一样的。</p>
 <p>提取选中元素最简单的方式是按位置提取。<code>first()</code>返回的jQuery对象仅包含选中元素中的第一个，<code>last()</code>返回的jQuery对象则只 包含最后一个元素。更通用的是，<code>eq()</code>方法返回物Query对象只包含指定序号的单个选中元素。(在jQuery 1.4中，负序号也是允许的，会从选区的末尾开始计数。)注意这些方法返回的jQuery对象只含有一个元素。这与常见的数组序号是不一样的，数组序号返 回的单一元素没有经过jQuery包装:<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var paras=$(<span class="string">"p"</span>);</span><br><span class="line">paras.first()           //仅选取第一个&lt;p&gt;元素</span><br><span class="line">paras.last()            //仅选取最后一个&lt;P&gt;</span><br><span class="line">paras.e<span class="string">q(1)</span>             //选取第二个&lt;P&gt;</span><br><span class="line">paras.e<span class="string">q(-2)</span>           //选取倒数第二个&lt;P&gt;</span><br><span class="line">paras[<span class="number">1</span>]                //第二个&lt;P&gt;元素自身</span><br></pre></td></tr></table></figure></p>
@@ -893,7 +893,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">62</span>
+                <span class="site-state-item-count">65</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
@@ -1008,7 +1008,7 @@
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
     <span title="Site words total count">
-      27.5k
+      27.3k
     </span>
   
   
